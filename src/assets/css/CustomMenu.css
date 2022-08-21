@@ -1,0 +1,140 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  left: 1000px;
+  top: 5vh;
+  }
+.Aparecer_burger-button{
+  opacity: 1;
+  transition: all linear 1s;
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  left: 1440px;
+  top: 187px;
+}
+.ocultar_burger{
+  opacity: 0;
+
+}
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  /* .bm-burger-bars-hover {
+    background: #48D1CC;
+  }
+   */
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 28px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #ffffff;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+.customMenu{
+    position: fixed;
+    z-index: 1100 !important;
+    width: 100vw !important;
+    height: 100% !important;
+    transition: all 0.5s ease 0s;
+    right: 0px !important;
+    top: 0px !important;
+    margin-right: 0px !important;
+    left: inherit;
+    margin-top: 0px !important;
+}
+.Barra_direita{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #000000;
+  background-color: #48D1CC;
+  width: 544px;
+  height: 747px;
+  margin-left: 69vw;
+  margin-top: -182px;
+}
+
+.Barra_dentro{
+  margin-top: 20;
+  padding: 100px;
+}
+.Siga{
+  margin-top: 30px;
+  font-size: 25px;
+}
+.Barra_direta1{
+  background-color:#000000 ;
+  width: 544px;
+  height: 199px;
+  margin-left: 69vw;
+}
+.Text_store{
+  padding: 5vh 25px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+.store_logo{
+  display: flex;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+.Logo_store{
+  width: 23vh;
+  padding: 18px 15px;
+}
+.redes_logo{
+  width: 6vh;
+}
