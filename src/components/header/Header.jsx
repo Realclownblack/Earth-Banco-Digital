@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import logo from '../../assets/img/earth bank.png'
 import CustomMenu from '../menu/CustomMenu';
-export const Header = () => {
+export const Header = (props) => {
     const [scroll, setScroll] = useState(false);
         useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -16,7 +16,7 @@ export const Header = () => {
                    <img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img>
                 </div>
                 <p className={scroll ? "Text Text_aparecer" : "Text"}>
-                    Earth | Banco digital que faz acontecer</p>
+                    Earth | {props.pagina}</p>
                 <ul className={scroll ? "Menu esconder_menu" : "Menu"}>
                     <li id='1'>Conta</li>
                     <li id='2'>Tem No Earth</li>
