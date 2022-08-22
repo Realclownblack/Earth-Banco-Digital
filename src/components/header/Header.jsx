@@ -26,13 +26,13 @@ export const Header = () => {
                     <li id='6'>Ajuda</li>
                 </ul>
             </div>
-            <div className={scroll ? "Text Text_aparecer" : "Text"}>
-                <p className='Text_Menu'>MENU</p>
+            <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
+                <div className='Menu'>
+                    <p className='Text_Menu'>MENU</p>
+                    <CustomMenu />
+                </div>
+                
             </div>
-            <div className={scroll ? 'Aparecer_burger-button' : 'ocultar_burger'}>
-                <CustomMenu />
-            </div>
-            
             <button className='button_home'>Quero Ser Earth</button>
             
         </div>

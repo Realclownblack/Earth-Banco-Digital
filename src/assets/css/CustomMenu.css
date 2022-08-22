@@ -4,25 +4,11 @@
   justify-content: center;
   overflow: hidden;
   position: fixed;
-  width: 15px;
-  height: 15px;
-  left: 1000px;
-  top: 5vh;
-  }
-.Aparecer_burger-button{
-  opacity: 1;
-  transition: all linear 1s;
-  position: fixed;
   width: 20px;
   height: 20px;
-  margin-top: 12px;
-  left: 1440px;
-  top: 187px;
-}
-.ocultar_burger{
-  opacity: 0;
+  margin-left: 10px;
+  }
 
-}
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #373a47;
@@ -93,20 +79,69 @@
     left: inherit;
     margin-top: 0px !important;
 }
+.conta{
+  background-color: aqua;
+  border-radius: 10px;
+  width: 303%;
+  height: 1%;
+}
+.temearth{
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 303%;
+  height: 1%;
+}
+.emprestimos{
+  background-color: rgb(224, 3, 231);
+  border-radius: 10px;
+  width: 25%;
+  height: 1%;
+}
+.open{
+  background-color: rgb(30, 255, 0);
+  border-radius: 10px;
+  width: 25%;
+  height: 1%;
+}
+.ajuda{
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  width: 25%;
+  height: 1%;
+}
+.sobre{
+  background-color: rgb(238, 255, 0);
+  border-radius: 10px;
+  width: 25%;
+  height: 1%;
+}
+.Opcoes{
+  background-color: #414141;
+  display: flex !important;
+  overflow-y: scroll;
+  width: 72%;
+  height: 109%;
+  margin-top: -4%;
+}
+.colun1{
+  width: 100%;
+}
+.colun2{
+  width: 100%;
+}
 .Barra_direita{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   color: #000000;
   background-color: #48D1CC;
-  width: 544px;
-  height: 747px;
+  width: 30%;
+  height: 88%;
   margin-left: 69vw;
-  margin-top: -182px;
+  margin-top: -54%;
 }
 
 .Barra_dentro{
-  margin-top: 20;
-  padding: 100px;
+  padding: 20%;
 }
 .Siga{
   margin-top: 30px;
@@ -114,8 +149,8 @@
 }
 .Barra_direta1{
   background-color:#000000 ;
-  width: 544px;
-  height: 199px;
+  width: 30%;
+  height: 23%;
   margin-left: 69vw;
 }
 .Text_store{
