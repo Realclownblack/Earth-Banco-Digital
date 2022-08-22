@@ -19,12 +19,6 @@ export const Navbar = () => {
             </div>
             <div>
                 <nav className='nav_2'>
-                    <div className='Text_Poupar'>
-            
-                    </div>
-                    <div className='Button_Poupar'>
-                        <button id='bnt1'>Aprenda Poupar</button>
-                    </div>
                     
                 </nav>
             </div>
