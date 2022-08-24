@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react';
-import '../../assets/css/header.css'
 import logo from '../../assets/img/earth bank.png'
 import CustomMenu from '../menu/CustomMenu';
 import { Link } from 'react-router-dom';
-
-export const Header = (props) => {
+import '../../assets/css/header_pages.css';
+export const Header_pages = (props) => {
     const [scroll, setScroll] = useState(false);
         useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -16,10 +15,9 @@ export const Header = (props) => {
         <div className={scroll ? "header_home menu_compacto" : "header_home"}>
             <div className='container-left'>
                 <div className={scroll ? "logo_aparecer" : "Logo"}>
-                    <Link to="/"><img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img></Link>
-                   
+                   <img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img>
                 </div>
-                <p className={scroll ? "Text Text_aparecer" : "Text"}>
+                <p className={scroll ? "Text1 Text_aparecer" : "Text1"}>
                     Earth | {props.pagina}</p>
                 <ul className={scroll ? "Menu esconder_menu" : "Menu"}>
                     <li id='1'>Conta</li>

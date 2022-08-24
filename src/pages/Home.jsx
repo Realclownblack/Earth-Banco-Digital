@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../assets/css/header.css'
 import '../assets/css/CustomMenu.css'
 import { Navbar } from '../components/navbar/Navbar'
 import { Header } from '../components/header/Header'

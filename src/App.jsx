@@ -1,4 +1,4 @@
-import RoutesJS from './routes'
+import {RoutesJS} from './routes'
 function App() {
   return (
     <div>

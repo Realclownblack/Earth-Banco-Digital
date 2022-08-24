@@ -1,6 +1,9 @@
 .Footer{
 color: rgb(255, 255, 255);
 width: 100%;
+margin-top: -10%;
+z-index: 98;
+position: relative;
 }
 .footer_1{
 background-color: rgb(0, 0, 0);
@@ -29,7 +32,7 @@ margin-left: 15%;
     border: 0;
     margin: 0;
     padding: 0;
-    padding-top: 22.857142857142858%;
+    padding-top: 9.857143%;
 }
 .text_nu1{
     margin-top: 2.8%;
@@ -70,7 +73,7 @@ align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2% 18%;
+    padding: 0% 18%;
 }
 .Baixaapp{
     display: flex;

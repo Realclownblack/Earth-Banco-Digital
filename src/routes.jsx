@@ -1,9 +1,9 @@
 import React from "react";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
-import Home from "../src/pages/Home"
+import { Routes, Route, BrowserRouter } from "react-router-dom"
 import Cadastro from "./pages/Cadastro"
+import Home from "./pages/Home"
 
-const RoutesJS = () => {
+export const RoutesJS = () => {
    return(
     <BrowserRouter>
       <Routes>
@@ -13,5 +13,3 @@ const RoutesJS = () => {
     </BrowserRouter>
    )
 }
-
-export default RoutesJS;
