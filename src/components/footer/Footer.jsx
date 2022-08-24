@@ -13,55 +13,55 @@ export const Footer = () => {
                       <div className="footer_1">
                             <img className='logo' src={logo} alt="" />
                             <div className='Baixaapp'>
-                                   <p>Baixa App</p>
+                                   <p className='text_name'>Baixa App</p>
 
-                                   <img src={app_store} alt="" />
+                                   <img className='logo_store' src={app_store} alt="" />
 
-                                   <img src={google_play} alt="" />
+                                   <img className='logo_store' src={google_play} alt="" />
 
                             </div>
                             <div className='Atendimento'>
-                                   <p>Atendimento</p>
+                                   <p className='text_name'>Atendimento</p>
 
-                                   <p>Central de Relacionamento <br />
+                                   <p className='text_unico'>Central de Relacionamento <br />
                                    0800 275 6398</p>
 
-                                   <p>SAC <br />
+                                   <p className='text_unico'>SAC <br />
                                    0800 722 6398</p>
 
-                                   <p>Ouvidoria <br />
+                                   <p className='text_unico'>Ouvidoria <br />
                                    0800 688 6398</p>
 
-                                   <p>falaEarth@gmail.com</p>
+                                   <p className='text_unico'>falaEarth@gmail.com</p>
 
-                                   <i>Outros Contatos</i>
+                                   <i className='text_unico'>Outros Contatos</i>
 
                             </div>
                             <div Informações>
-                                   <p>Informações</p>
+                                   <p className='text_name'>Informações</p>
 
-                                   <p>Caixas Eletrônicos</p>
+                                   <p className='text_segundario'>Caixas Eletrônicos</p>
 
-                                   <p>LGPD</p>
+                                   <p className='text_segundario'>LGPD</p>
 
-                                   <p>Diretiva de Privacidade</p>
+                                   <p className='text_segundario'>Diretiva de Privacidade</p>
 
-                                   <p>Documentos Importantes</p>
+                                   <p className='text_segundario'>Documentos Importantes</p>
 
-                                   <p>Cotação do Dólar da sua fatura</p>
+                                   <p className='text_segundario'>Cotação do Dólar da sua fatura</p>
 
-                                   <p>Procon</p>
+                                   <p className='text_segundario'>Procon</p>
 
-                                   <p>Código de Defesa do Consumidor</p>
+                                   <p className='text_segundario'>Código de Defesa do Consumidor</p>
                             </div>
                             <div className='Empresa'>
-                                   <p>Empresa</p>
+                                   <p className='text_name'>Empresa</p>
 
-                                   <p>What’s earth</p>
+                                   <p className='text_segundario'>What’s earth</p>
 
-                                   <p>Sobre o earth</p>
+                                   <p className='text_segundario'>Sobre o earth</p>
 
-                                   <p>Carreiras</p>
+                                   <p  className='text_segundario'>Carreiras</p>
                             </div>
                      </div> 
                      <div className="footer_2">

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import logo from '../../assets/img/earth bank.png'
 import CustomMenu from '../menu/CustomMenu';
+import { Link } from 'react-router-dom';
+
 export const Header = (props) => {
     const [scroll, setScroll] = useState(false);
         useEffect(() => {
@@ -26,14 +28,12 @@ export const Header = (props) => {
                     <li id='6'>Ajuda</li>
                 </ul>
             </div>
-            <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
-                <div className='Menu'>
-                    <p className='Text_Menu'>MENU</p>
+            <div className='Menu'>
+                <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
                     <CustomMenu />
                 </div>
-                
+                <button className='button_home' ><Link to="/cadastro">Quero Ser Earth</Link></button>
             </div>
-            <button className='button_home'>Quero Ser Earth</button>
             
         </div>
     )

@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #F2F2F2;
   padding: 1% 6%;
   width: 101%;
-    transition: all linear .3s;
+  transition: all linear .3s;
 }
 
 .Menu {
@@ -49,17 +49,18 @@ li {
   width: 238.5px;
   height: 60px;
   background-color: #48D1CC;
-  color: rgb(255, 255, 255);
   text-transform: none;
   border: none;
 }
 
-.button_home {
+.button_home a{
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   text-rendering: auto;
   text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -107,7 +108,7 @@ li {
 .Menu_react {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  margin-top: 0.3%;
+  margin-top: 9.3%;
   display: none;
 }
 
@@ -130,12 +131,5 @@ li {
   animation-name: aparecerTexto;
   animation-duration: 1s;
   display: inline;
-}
-
-.Text_Menu{
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  margin-left: -126%;
 }
 

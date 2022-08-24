@@ -6,7 +6,7 @@
   position: fixed;
   width: 20px;
   height: 20px;
-  margin-left: 10px;
+  margin-left: -43px;
   }
 
   /* Color/shape of burger icon bars */
@@ -36,7 +36,7 @@
   */
   .bm-menu-wrap {
     position: fixed;
-    height: 100%;
+    height: 93%;
   }
   
   /* General sidebar styles */
@@ -64,7 +64,7 @@
   
   /* Styling of overlay */
   .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
+    background: transparent !important;
   }
 
 .customMenu{
@@ -116,15 +116,14 @@
   height: 24%;
 }
 .Opcoes{
-  background-color: #414141;
   display: flex !important;
   width: 73%;
   height: 109%;
-  margin-top: -5%;
+  margin-top: -2%;
 }
 .colun1{
-  width: 32%;
-  margin-left: 13%;
+  width: 24%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -146,7 +145,8 @@
   width: 30%;
   height: 93%;
   margin-left: 69vw;
-  margin-top: -51%;
+  margin-top: -52%;
+  position: fixed;
 }
 
 
@@ -162,6 +162,8 @@
   width: 30%;
   height: 23%;
   margin-left: 69vw;
+  position: fixed;
+  bottom: 0;
 }
 .Text_store{
   padding: 5vh 25px;
