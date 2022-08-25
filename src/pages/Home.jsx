@@ -4,6 +4,7 @@ import { Navbar } from '../components/navbar/Navbar'
 import { Header } from '../components/header/Header'
 import {Footer} from '../components/footer/Footer'
 import { Usercadastro } from '../components/cadastro/UserCadastro'
+import {Vantagens} from '../components/vantagens/Vantagens'
 
 class Home extends Component {
     state = {  } 
@@ -12,6 +13,7 @@ class Home extends Component {
             <>
             <Header pagina='Banco digital que faz acontecer'/>
             <Navbar/>
+            <Vantagens/>
             <Usercadastro/>
             <Footer/>
             </>
