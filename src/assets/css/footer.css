@@ -10,7 +10,7 @@ background-color: rgb(0, 0, 0);
 margin-top: 10%;
 }
 .footer_2{
-margin-top: 0.05%;
+margin-top: -3.95%;
 background-color: rgb(0, 0, 0);
 }
 .Text_Footer{
@@ -36,11 +36,11 @@ margin-left: 15%;
 }
 .text_nu1{
     margin-top: 2.8%;
-    width: 31%;
+    width: 41%;
     margin-bottom: 1%;
 }
 .text_nu2{
-    width: 37%;
+    width: 45%;
     margin-bottom: 1%;   
 }
 .text_nu3{
@@ -53,11 +53,15 @@ margin-left: 15%;
 align-items: center;
 }
 .Logo_redes{
+    display: flex;
     color: rgb(255, 255, 255);
-    background-color: rgb(165, 162, 162);
-    margin-left: 61%;
+    margin-left: 55%;
     margin-top: -19%;
     height: 1%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
 }
 .logo{
     width: 8%;
@@ -73,7 +77,7 @@ align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0% 18%;
+    padding: 3% 18%;
 }
 .Baixaapp{
     display: flex;
@@ -91,5 +95,11 @@ align-items: center;
 }
 
 .text_segundario{
-    margin-bottom: 8%;
+    margin-bottom: 7%;
+}
+.siga{
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    margin-top: 1%;
 }

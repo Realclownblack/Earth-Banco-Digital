@@ -1,10 +1,10 @@
 import '../../assets/css/footer.css'
 import google_play from '../../assets/img/google-play.svg'
 import app_store from '../../assets/img/app-store.svg'
-import facebook from '../../assets/img/facebook.png'
-import instragram from '../../assets/img/instagram.png'
-import whatsapp from '../../assets/img/whatsapp.png'
-import youtube from '../../assets/img/youtube.png'
+import facebook from '../../assets/img/redes/facebook.png'
+import instragram from '../../assets/img/redes/instagram.png'
+import whatsapp from '../../assets/img/redes/whatsapp.png'
+import youtube from '../../assets/img/redes/youtube.png'
 import logo from '../../assets/img/earth bank.png'
 export const Footer = () => {
 
@@ -65,6 +65,8 @@ export const Footer = () => {
                             </div>
                      </div> 
                      <div className="footer_2">
+                     <hr />
+
                             <div className='Text_Footer'>
                                    <p className='text_nu1'>Earth Tecnologia e Serviços Digitais © 2020. <br />
                                    Todos os direitos reservados. CNPJ: nº 15.011.336/0001-27 <br />
@@ -86,7 +88,7 @@ export const Footer = () => {
                             </div>
                             <div className='Redes_footer'>
                                    <div className='Logo_redes'>
-                                          <p>SIGA EARTH</p>
+                                          <p className='siga'>SIGA EARTH</p>
                                           <img className='redes_logo' src={facebook} alt="facebook" />
                                           <img className='redes_logo' src={instragram} alt="instragram" />
                                           <img className='redes_logo' src={youtube} alt="youtube" />

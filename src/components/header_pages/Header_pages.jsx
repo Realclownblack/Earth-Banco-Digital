@@ -15,7 +15,7 @@ export const Header_pages = (props) => {
         <div className={scroll ? "header_home menu_compacto" : "header_home"}>
             <div className='container-left'>
                 <div className={scroll ? "logo_aparecer" : "Logo"}>
-                   <img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img>
+                <Link to="/"><img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img></Link>
                 </div>
                 <p className={scroll ? "Text1 Text_aparecer" : "Text1"}>
                     Earth | {props.pagina}</p>
@@ -32,7 +32,7 @@ export const Header_pages = (props) => {
                 <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
                     <CustomMenu />
                 </div>
-                <button className='button_home' ><Link to="/cadastro">Quero Ser Earth</Link></button>
+                <a className='button_home' href="#cadastro" >Quero Ser Earth</a>
             </div>
             
         </div>
