@@ -1,8 +1,8 @@
 
 .quadrado{
-    background-color:#f2f2f2;
-    width: 62%;
-    height: 82vh;
+    background-color: #f2f2f2;
+    width: 59%;
+    height: 66vh;
 }
 .quadrado1{
     background-color: #00ff5f;
@@ -14,13 +14,14 @@
 .quadrado2{
     z-index: 60;
     position: relative;
-    width: 36%;
-    height: 96vh;
-    margin-left: 23%;
+    width: 28%;
+    height: 70vh;
+    margin-left: 26%;
     margin-top: -30%;
     background-color: #ffffff;
     margin-bottom: 10%;
 }
+
 .form{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
