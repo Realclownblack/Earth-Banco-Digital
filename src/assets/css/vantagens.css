@@ -1,7 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .container{
     background-color: #00ffb7;
-    width: 90%;
     margin-top: -25%;
     margin-left: 5%;
-    height: 82vh;
+    height: 86vh;
+    margin-right: 5%;
+}
+.vantagens{
+    display: flex;
+    width: 100%;
+    padding: 5% 0% 10% 0%;
+    justify-content: space-evenly;
+    
+}
+.tarifa{
+    width: 23%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.amigos{
+    width: 23%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.cdb{
+    width: 23%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.img_vantagens{
+    width: 79%;
+    height: 10%;
+    border-radius: 10px;
+}
+.titulo_vantagens{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 157%;
+    margin-bottom: 10px;
+}
+.inform_vantagens{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    text-align: center;
+    margin-left: 31%;
+    padding-top: 105px;
+}
+.text_vantagens{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.button_vantagens{
+    color: #000;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid black
+}
+.acontecer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px; 
+}
+.earth{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
 }

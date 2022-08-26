@@ -37,6 +37,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0;
   list-style: none;
   display: flex;
+  margin-left: 72px;
 }
 
 li {
