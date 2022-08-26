@@ -5,7 +5,7 @@ import { Header } from '../components/header/Header'
 import {Footer} from '../components/footer/Footer'
 import { Usercadastro } from '../components/cadastro/UserCadastro'
 import {Vantagens} from '../components/vantagens/Vantagens'
-
+import {Parceiros} from '../components/parceiros/Parceiros'
 class Home extends Component {
     state = {  } 
     render() { 
@@ -14,6 +14,7 @@ class Home extends Component {
             <Header pagina='Banco digital que faz acontecer'/>
             <Navbar/>
             <Vantagens/>
+            <Parceiros/>
             <Usercadastro/>
             <Footer/>
             </>

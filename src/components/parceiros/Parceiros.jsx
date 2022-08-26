@@ -1,8 +1,8 @@
 import '../../assets/css/parceiros.css'
 
-export const Vantagens = () => {
+export const Parceiros = () => {
     return (
-        <div className="container">
+        <div className="parceiros">
 
         </div>
     )
