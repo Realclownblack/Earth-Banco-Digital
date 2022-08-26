@@ -22,7 +22,7 @@ export const Vantagens = () => {
                 <div className='amigos'>
                     <img className='img_vantagens' src={img_1} alt="" />
                     <h1 className='titulo_vantagens'>Indique amigos</h1>
-                    <p className='text_vantagens'>Indique seus amigos para o next e aproveitem juntos todas as vantagens de um banco 100% digital e gratuito</p>
+                    <p className='text_vantagens'>Indique seus amigos para o earth e aproveitem juntos todas as vantagens de um banco 100% digital e gratuito</p>
                     <a className='button_vantagens' href="#cadastro">QUERO UMA CONTA TAMBÉM</a>
 
                 </div>
