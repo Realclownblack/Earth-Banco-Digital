@@ -1,5 +1,18 @@
 .parceiros{
     background-color: black;
     width: 100%;
-    height: 50%;
+    height: 80%;
+    margin-top: 20%;
+    display: flex;
+  
+}
+.coca{
+    width: 30%;
+    height: 97%;
+}
+.info_parceiros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
