@@ -12,6 +12,7 @@ export const Parceiros = () => {
                     <p className='text_titulo'>Earthshop</p>
                     <p className='text_infotitulo'>Faça suas compras com vantagens
                         exclusivas para quem é Earth!</p>
+                    <a className='earthshop' href="">Conhecer Earthshop</a>
                 </div>
             <div className='parceiros_2' >
                 <div className='info_parceiros'>
@@ -45,9 +46,6 @@ export const Parceiros = () => {
                     <div className='circulo3'></div>
                 </div>
               
-            </div>
-            <div className='shop'>
-                 <a className='earthshop' href="">Conhecer Earthshop</a>
             </div>
            
         </div>

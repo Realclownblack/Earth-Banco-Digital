@@ -1,0 +1,36 @@
+.contaearth{
+    background-color: rgb(155, 155, 155);
+    width: 100%;
+    margin-top: 10%;
+    padding: 10% 97px;
+}
+.barra{
+    padding: 3% 97px;
+    background-color: #00ffb7;
+}
+.recurso_1{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: black;
+}
+
+.recursos{
+    display: flex !important;
+    width: 73%;
+    height: 109%;
+    margin-top: -2%;
+}
+.coluna1{
+    width: 24%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .colun2{
+    width: 24%;
+    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }

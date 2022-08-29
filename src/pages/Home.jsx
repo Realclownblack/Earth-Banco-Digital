@@ -6,6 +6,7 @@ import {Footer} from '../components/footer/Footer'
 import { Usercadastro } from '../components/cadastro/UserCadastro'
 import {Vantagens} from '../components/vantagens/Vantagens'
 import {Parceiros} from '../components/parceiros/Parceiros'
+import { Contaearth } from '../components/contaearth/Contaearth'
 class Home extends Component {
     state = {  } 
     render() { 
@@ -14,6 +15,7 @@ class Home extends Component {
             <Header pagina='Banco digital que faz acontecer'/>
             <Navbar/>
             <Vantagens/>
+            <Contaearth/>
             <Parceiros/>
             <Usercadastro/>
             <Footer/>
