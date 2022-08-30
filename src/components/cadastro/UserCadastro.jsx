@@ -6,7 +6,6 @@ export const Usercadastro = () => {
     return (
         <nav id='cadastro'>
           <div className="quadrado">
-
           </div>
           <div className="quadrado2">
             <div className="form">

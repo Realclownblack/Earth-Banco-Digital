@@ -24,7 +24,7 @@ export const Contaearth = () => {
                 <div className='coluna2'>
                         <div className='pops'>
                             <p className='conta_titulo'>Open Finance</p>
-                            <p className='conta_info'>O sistema financeiro aberto, seguro e gratuito que chegou no Earth pra te dar ainda mais autonomia.</p>
+                            <p className='conta_info'>O sistema financeiro aberto, seguro e gratuito que chegou no arth pra te dar ainda mais autonomia.</p>
                             <a id="Open_Finance" className="saiba_mais" href="/contact">SAIBA MAIS</a>
                         </div>
                         <div className='pops'>
@@ -46,7 +46,7 @@ export const Contaearth = () => {
                         </div>
                         <div className='pops'>
                             <p className='conta_titulo'>EarthShop</p>
-                            <p  className='conta_info'>Compre nas maiores lojas do país com segurança direto pelo app next e receba dinheiro de volta na sua conta.</p>
+                            <p  className='conta_info'>Compre nas maiores lojas do país com segurança direto pelo app earth e receba dinheiro de volta na sua conta.</p>
                             <a id="EarthShop" className="saiba_mais" href="/contact">SAIBA MAIS</a>
                         </div>
                 </div>

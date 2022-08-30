@@ -3,7 +3,7 @@ import coca from '../../assets/img/coca.png'
 import cinema from '../../assets/img/images.png'
 import uber from '../../assets/img/uber.png'
 import mundopixar from '../../assets/img/mundopixar.png'
-import personagem from '../../assets/img/earth_parceiros.png'
+import personagem from '../../assets/img/mimos.gif'
 
 export const Parceiros = () => {
     return (
@@ -40,8 +40,7 @@ export const Parceiros = () => {
                 </div>
                
                 <div className='info_logo'>
-                {/* <img  align="center"  alt="Coding" width="350" src="https://gist.github.com/theAdityaNVS/f5b585d1082da2dffffea32434f37956/raw/7f9552d0a179b4f84059259fa878199e369b069c/GitHub-logo.gif"/> */}
-                    <img className='logo_info' src={personagem} alt="" />
+                    <img className='logo_info' align="center"  alt="Coding" width="350" src={personagem}/>
                     <div className='circulo1'></div>
                     <div className='circulo2'></div>
                     <div className='circulo3'></div>
