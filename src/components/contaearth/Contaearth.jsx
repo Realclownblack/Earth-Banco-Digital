@@ -1,38 +1,58 @@
 import '../../assets/css/contaearth.css'
+import mulher from '../../assets/img/retrato-de-uma-jovem-atraente-e-animada.png'
 export const Contaearth = () => {
     return (
         <div className="contaearth" >
             <div className='recursos'>
-            <div className='coluna1'>
-                    <div className='conta'>
-                        <p>Account</p>
-                        <a id="Account" className="menu-item" href="/">Account</a>
+                <div className='coluna1'>
+                        <div className='pops'>
+                            <p className='conta_titulo'>Cartões Earth</p>
+                            <p className='conta_info'>Escolha o Visa com as vantagens que mais combinam com você.</p>
+                            <a id="Cartoes" className="saiba_mais" href="/">SAIBA MAIS</a>
+                        </div>
+                        <div className='pops'>
+                            <p className='conta_titulo'>Transferências por WhatsApp</p>
+                            <p className='conta_info'>Pra enviar e receber $ sem sair da conversa.</p>
+                            <a id="Transferencias" className="saiba_mais" href="/about">SAIBA MAIS</a>
+                        </div>
+                        <div className='pops'>
+                            <p className='conta_titulo'>Pix</p>
+                            <p className='conta_info'>Um novo jeito de fazer pagamentos a hora que quiser.</p>
+                            <a id="pix" className="saiba_mais" href="/contact">SAIBA MAIS</a>
+                        </div>
                     </div>
-                    <div className='temearth'>
-                        <p>Have on Earth</p>
-                        <a id="Have_on_Earth" className="menu-item" href="/about">Have on Earth</a>
-                    </div>
-                    <div className='emprestimos'>
-                        <p>Loans</p>
-                        <a id="Loans" className="menu-item" href="/contact">Loans</a>
-                    </div>
+                <div className='coluna2'>
+                        <div className='pops'>
+                            <p className='conta_titulo'>Open Finance</p>
+                            <p className='conta_info'>O sistema financeiro aberto, seguro e gratuito que chegou no Earth pra te dar ainda mais autonomia.</p>
+                            <a id="Open_Finance" className="saiba_mais" href="/contact">SAIBA MAIS</a>
+                        </div>
+                        <div className='pops'>
+                            <p className='conta_titulo'>Saques</p>
+                            <p  className='conta_info'>Ilimitados e grátis nos caixas Bradesco e Rede Banco24Horas.</p>
+                            <a id="Saques" className="saiba_mais" href="/contact">SAIBA MAIS</a>
+                        </div>
+                        <div className='pops'>
+                            <p className='conta_titulo'>Investimentos</p>
+                            <p  className='conta_info'>Uma carteira completa pra qualquer objetivo ou perfil.</p>
+                            <a id="Investimentos" className="saiba_mais" href="/contact">SAIBA MAIS</a>
+                        </div>
                 </div>
-               <div className='colun2'>
-                    <div className='open'>
-                        <p>Open Finance</p>
-                        <a id="Open_Finance" className="menu-item" href="/contact">Open Finance</a>
-                    </div>
-                    <div className='ajuda'>
-                        <p>Help</p>
-                        <a id="Help" className="menu-item" href="/contact">Help</a>
-                    </div>
-                    <div className='sobre'>
-                        <p>About Us</p>
-                        <a id="About Us" className="menu-item" href="/contact">About Us</a>
-                    </div>
-               </div>
-                
-
+                <div className='coluna3'>
+                        <div className='pops'>
+                            <p className='conta_titulo'>Seguros</p>
+                            <p  className='conta_info'>A proteção perfeita pra cuidar das suas conquistas e bem-estar.</p>
+                            <a id="Seguros" className="saiba_mais" href="/contact">SAIBA MAIS</a>
+                        </div>
+                        <div className='pops'>
+                            <p className='conta_titulo'>EarthShop</p>
+                            <p  className='conta_info'>Compre nas maiores lojas do país com segurança direto pelo app next e receba dinheiro de volta na sua conta.</p>
+                            <a id="EarthShop" className="saiba_mais" href="/contact">SAIBA MAIS</a>
+                        </div>
+                </div>
+                <div className='mulher_div'>
+                    <img className='img_mulher' src={mulher} alt="" />
+                </div>
             </div>
            <div className='barra'><div></div></div>
         </div>
