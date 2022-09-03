@@ -50,9 +50,9 @@ export const Contaearth = () => {
                             <a id="EarthShop" className="saiba_mais" href="/contact">SAIBA MAIS</a>
                         </div>
                 </div>
-                <div className='mulher_div'>
-                    <img className='img_mulher' src={mulher} alt="" />
-                </div>
+            </div>
+            <div className='mulher_div'>
+                <img className='img_mulher' src={mulher} alt="" />
             </div>
            <div className='barra'><div></div></div>
         </div>

@@ -16,10 +16,10 @@
 }
 
 .recursos{
-    display: flex;
-    height: 849px;
-    margin-bottom: -52px;
-    padding-left: 4%;
+  display: flex;
+  height: 849px;
+  margin-bottom: -141px;
+  padding: 31px 392px 80px 17px;
 }
 .coluna1{
     gap: 1rem;
@@ -42,12 +42,12 @@
     width: 209%;
     display: flex;
     flex-direction: column;
-    margin-left: 14px;
-    margin-top: 287px;
+    margin-left: 16px;
+    margin-top: 254px;
   }
   .pops{
     background-color: #e6e6e6;
-    height: 51%;
+    height: 48%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -66,19 +66,21 @@
     margin-top: 20px;
   }
   .img_mulher{
-    margin-left: -10%;
-    margin-top: 65%;
+    margin-left: 52%;
+    margin-top: -35%;
+    margin-bottom: -11px;
+    width: 588px;
   }
   .mulher_div{
     min-height: -webkit-fill-available;
   }
   .conta_titulo{
     font-family: 'Poppins', sans-serif;
-    font-size: 33px;
+    font-size: 144%;
   }
   .conta_info{
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 80%;
   }
   /* @media (max-width: 1306px){
     .img_mulher{

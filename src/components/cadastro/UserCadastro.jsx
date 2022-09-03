@@ -4,7 +4,7 @@ import '../../assets/css/usercadastro.css'
 export const Usercadastro = () => {
 
     return (
-        <nav id='cadastro'>
+        <nav className='cadastro'>
           <div className="quadrado">
           </div>
           <div className="quadrado2">

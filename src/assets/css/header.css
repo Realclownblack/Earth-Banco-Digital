@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0;
   list-style: none;
   display: flex;
-  margin-left: 72px;
+  margin-left: 42px;
 }
 
 li {
@@ -106,7 +106,6 @@ li {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin-right: -21%;
-  margin-left: 41px;
   display: none;
 }
 .Menu_react {
