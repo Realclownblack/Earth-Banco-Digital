@@ -5,7 +5,7 @@
     margin-top: 10%;
 }
 .parceiros_2{
-    margin-top: 20%;
+    margin-top: 23%;
     display: flex;
     justify-content: space-evenly;
     padding: 80px 0px 104px;
@@ -101,5 +101,7 @@
     text-decoration: none;
     border-bottom: 1px solid #000000;
     width: 321px;
-    padding-left: 77px;
+}
+.div_button{
+    padding: 0% 6% 2%;
 }

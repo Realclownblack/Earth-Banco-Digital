@@ -12,7 +12,6 @@ export const Parceiros = () => {
                     <p className='text_titulo'>Earthshop</p>
                     <p className='text_infotitulo'>Faça suas compras com vantagens
                         exclusivas para quem é Earth!</p>
-                    <a className='earthshop' href="">Conhecer Earthshop</a>
                 </div>
             <div className='parceiros_2' >
                 <div className='info_parceiros'>
@@ -40,14 +39,17 @@ export const Parceiros = () => {
                 </div>
                
                 <div className='info_logo'>
-                    <img className='logo_info' align="center"  alt="Coding" width="350" src={personagem}/>
+                    <img className='logo_info' align="center"  alt="Coding" width="250" src={personagem}/>
                     <div className='circulo1'></div>
                     <div className='circulo2'></div>
                     <div className='circulo3'></div>
                 </div>
               
             </div>
-           
+            <div className='div_button'>
+                <a className='earthshop' href="">Conhecer Earthshop</a>
+            </div>
+            
         </div>
         
     )
