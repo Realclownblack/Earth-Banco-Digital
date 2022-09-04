@@ -66,8 +66,8 @@
     margin-top: 20px;
   }
   .img_mulher{
-    margin-left: 52%;
-    margin-top: -35%;
+    margin-left: 47%;
+    margin-top: -61%;
     margin-bottom: -11px;
     width: 588px;
   }
@@ -89,3 +89,15 @@
         margin-top: 90%;
       }
   } */
+  .text_conta{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2%;
+    width: 25%;
+  }
+  #titulo_conta{
+    font-size: 90% ;
+    opacity: 0.6;
+  }
+  #text_titulo{
+    font-size: 159%;
+  }

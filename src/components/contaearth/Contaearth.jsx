@@ -1,8 +1,14 @@
 import '../../assets/css/contaearth.css'
-import mulher from '../../assets/img/retrato-de-uma-jovem-atraente-e-animada.png'
+import mulher from '../../assets/img/earth-shopp.png'
 export const Contaearth = () => {
     return (
         <div className="contaearth" >
+            <div className='text_conta'>
+                <h1 id='titulo_conta'>Conta earth</h1>
+                <p id='text_titulo'>Tudo o que você
+                sempre procurou em
+                um banco digital</p>
+            </div>
             <div className='recursos'>
                 <div className='coluna1'>
                         <div className='pops'>
