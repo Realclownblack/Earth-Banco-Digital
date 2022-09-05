@@ -4,12 +4,6 @@
     padding: 60px;
     margin-top: 5%;
 }
-.barra{
-    padding: 3% 97px;
-    background-color: #00ffb7;
-    z-index: 25;
-    position: relative;
-}
 .recurso_1{
     border: 1px solid rgb(255, 0, 0);
     background-color: black;
@@ -17,9 +11,9 @@
 
 .recursos{
   display: flex;
-  height: 849px;
-  margin-bottom: -141px;
-  padding: 31px 392px 80px 17px;
+  height: 1079px;
+  margin-bottom: -241px;
+  padding: 139px 554px 41px 71px;
 }
 .coluna1{
     gap: 1rem;
@@ -43,11 +37,11 @@
     display: flex;
     flex-direction: column;
     margin-left: 16px;
-    margin-top: 254px;
+    margin-top: 305px;
   }
   .pops{
     background-color: #e6e6e6;
-    height: 48%;
+    height: 49%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -66,14 +60,20 @@
     margin-top: 20px;
   }
   .img_mulher{
-    margin-left: 47%;
-    margin-top: -61%;
-    margin-bottom: -11px;
-    width: 588px;
+    margin-top: -48%;
+    width: 795px;
   }
-  .mulher_div{
-    min-height: -webkit-fill-available;
+  .barra{
+    padding: 4% 97px;
+    background-color: #00ffb7;
+    z-index: 25;
+    position: relative;
   }
+  .obsoletos{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .conta_titulo{
     font-family: 'Poppins', sans-serif;
     font-size: 144%;
@@ -82,22 +82,118 @@
     font-family: 'Poppins', sans-serif;
     font-size: 80%;
   }
-  /* @media (max-width: 1306px){
-    .img_mulher{
-        width: 513px;
-        margin-left: -10%;
-        margin-top: 90%;
-      }
-  } */
   .text_conta{
     font-family: 'Poppins', sans-serif;
-    margin-left: 2%;
-    width: 25%;
+    margin-left: 4%;
+    width: 20%;
+    margin-bottom: -84px;
+    padding: 0% 18px;
   }
   #titulo_conta{
     font-size: 90% ;
     opacity: 0.6;
   }
   #text_titulo{
-    font-size: 159%;
+    font-size: 181%;
+  }
+  @media only screen and (max-width: 1818px) {
+    .text_conta {
+      font-family: 'Poppins', sans-serif;
+      margin-left: 4%;
+      width: 31%;
+      margin-bottom: -84px;
+      padding: 0% 18px;
+    }
+    .obsoletos{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .recursos {
+      padding: 139px 306px 41px 71px;
+    }
+    .img_mulher {
+      margin-top: -75%;
+    }
+  }
+  @media only screen and (max-width: 1700px) {
+    .text_conta {
+      width: 27%;
+    }
+
+    .img_mulher {
+      margin-top: -51%;
+    }
+    .recursos {
+      padding: 139px 306px 41px 71px;
+    }
+  }
+
+  @media only screen and (max-width: 1820px) {
+    .text_conta {
+      width: 23%;
+  }
+
+    .recursos {
+      padding: 139px 526px 41px 71px;
+    }
+
+    .img_mulher {
+      margin-top: -52%;
+    }
+  }
+  @media only screen and (max-width: 1600px) {
+    .text_conta {
+      width: 26%;
+    }
+
+    .recursos {
+      padding: 139px 432px 41px 71px;
+    }
+
+    .img_mulher {
+      margin-top: -56%;
+    }
+  }
+  @media only screen and (max-width: 1500px) {
+    .recursos {
+      padding: 139px 436px 41px 71px;
+    }
+
+    .img_mulher {
+      margin-top: -60%;
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .text_conta {
+      width: 29%;
+  }
+    .recursos {
+      padding: 139px 338px 41px 71px;
+    }
+
+    .img_mulher {
+      margin-top: -65%;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .text_conta {
+      width: 31%;
+  }
+    .recursos {
+      padding: 139px 227px 41px 71px;
+    }
+
+    .img_mulher {
+      margin-top: -75%;
+    }
+  }
+  @media only screen and (max-width: 1228px) {
+    .recursos {
+      padding: 139px 192px 41px 71px;
+      background-color: #fd6699;
+    }
+
+    .img_mulher {
+      margin-top: -77%;
+    }
   }

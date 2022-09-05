@@ -57,10 +57,13 @@ export const Contaearth = () => {
                         </div>
                 </div>
             </div>
-            <div className='mulher_div'>
+            <div className='obsoletos'>
                 <img className='img_mulher' src={mulher} alt="" />
             </div>
-           <div className='barra'><div></div></div>
+            <div className='obsoletos_1'>
+                <div className='barra'><div></div></div>
+            </div>
+           
         </div>
         
     )
