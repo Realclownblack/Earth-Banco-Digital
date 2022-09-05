@@ -198,28 +198,7 @@
     }
   }
   @media only screen and (max-width: 1100px) {
-    .recursos {
-      padding: 139px 192px 41px 71px;
-      background-color: #fd6699;
-    }
-
-    .img_mulher {
-      margin-top: -57%;
-    }
-    .text_conta {
-      width: 50%;
-      margin-left: 30%;
-      text-align: center;
-    }
-    .obsoletos {
-      display: flex;
-      flex-direction: column;
-    }
-    #titulo_conta {
-      font-size: 90%;
-      opacity: 0.6;
-    }
-    .barra {
+    .contaearth {
       display: none;
     }
   }
