@@ -39,6 +39,13 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   margin-left: 42px;
 }
+.menu {
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  margin-left: 42px;
+}
+
 
 li {
   margin-right: 2rem;
@@ -136,3 +143,47 @@ li {
   display: inline;
 }
 
+@media only screen and (max-width: 1228px) {
+  .Menu_react {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 9.3%;
+    display: inline;
+  }
+  .button_home{
+    display: none;
+  }
+  
+  .esconder_menu {
+    display: none;
+  }
+  .container-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .Text{
+    display: none;
+  }
+  .header_home {
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #ffffff;
+    padding: 11% 12%;
+    margin-top: -25%;
+    width: 101%;
+  }
+  .menu_compacto {
+    padding: 2.5% 12%;
+    margin-top: -25%;
+  }
+  .Menu{
+    display: none;
+  }
+}

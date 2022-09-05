@@ -30,7 +30,7 @@ export const Header = (props) => {
                     <li id='6'>Ajuda</li>
                 </ul>
             </div>
-            <div className='Menu'>
+            <div className='menu'>
                 <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
                     <CustomMenu />
                 </div>
