@@ -131,12 +131,35 @@
         margin-right: 57%;
     }
     .parceiros_2 {
-        padding: 88px 4px 121px 43%;
+        padding: 98px 85px 121px 24%;
     }
     .parceiros{
         width: 100%;
     }
     .div_button {
         margin-left: 34.3%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .parceiros {
+        width: 100%;
+    }
+    .info_parceiros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 63%;
+        justify-content: space-around;
+        margin-top: 125%;
+        margin-right: -106%;
+    }
+    .info_logo {
+        margin-left: 14%;
+    }
+    .div_button {
+        margin-left: 23.3%;
+    }
+    .parceiros_2 {
+        padding: 101px 0px 125px 50%;
     }
   }

@@ -175,7 +175,7 @@ li {
     row-gap: 10px;
     grid-template-columns: repeat(10, 1fr);
     background-color: #ffffff;
-    padding: 11% 12%;
+    padding: 7% 13%;
     margin-top: -25%;
     width: 101%;
   }
@@ -186,4 +186,45 @@ li {
   .Menu{
     display: none;
   }
+  .Logo {
+    width: 75px;
+    margin-top: 17.5%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .header_home {
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #ffffff;
+    padding: 9% 11%;
+    margin-top: -25%;
+    width: 100%;
+  }
+  .menu_compacto {
+    position: fixed;
+    padding: 7.5% 12%;
+    margin-top: -26%;
+  }
+  .logo_aparecer {
+    margin-right: 0%;
+    margin-top: 59.5%;
+    width: 40px;
+  }
+  .Logo {
+    width: 75px;
+    margin-top: 14.5%;
+  }
+  .container-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-top: 6%;
+  }
+
 }
