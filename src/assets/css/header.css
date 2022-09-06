@@ -190,6 +190,12 @@ li {
     width: 75px;
     margin-top: 17.5%;
   }
+  .Menu_react {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 32.3px;
+    display: inline;
+  }
 }
 @media only screen and (max-width: 500px) {
   .header_home {
@@ -202,13 +208,13 @@ li {
     grid-template-columns: repeat(10, 1fr);
     background-color: #ffffff;
     padding: 9% 11%;
-    margin-top: -25%;
+    margin-top: -35%;
     width: 100%;
   }
   .menu_compacto {
     position: fixed;
-    padding: 1.5% 12%;
-    margin-top: -28%;
+    padding: 7.5% 12%;
+    margin-top: -26%;
   }
   .logo_aparecer {
     margin-right: 0%;
@@ -217,7 +223,7 @@ li {
   }
   .Logo {
     width: 75px;
-    margin-top: 14.5%;
+    margin-top: 23.5%;
   }
   .container-left {
     display: flex;
@@ -229,8 +235,8 @@ li {
   .Menu_react {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    margin-top: 26.3px;
+    margin-top: 32.3px;
     display: inline;
-}
+ }
 
 }

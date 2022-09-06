@@ -35,15 +35,14 @@ export const Parceiros = () => {
                         <p className='text_name'>Mundo Pixar</p>
                         <a className='button_parceiros' href="https://www.mundopixar.com.br/" target={'_blank'}> Venha Conhecer </a>
                     </div>
-                    
                 </div>
-               
                 <div className='info_logo'>
                     <img className='logo_info'  src={personagem}/>
                     <div className='circulo1'></div>
                     <div className='circulo2'></div>
                     <div className='circulo3'></div>
                 </div>
+                
               
             </div>
             <div className='div_button'>
