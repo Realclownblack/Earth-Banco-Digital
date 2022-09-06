@@ -191,7 +191,7 @@ li {
     margin-top: 17.5%;
   }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .header_home {
     z-index: 99;
     position: fixed;

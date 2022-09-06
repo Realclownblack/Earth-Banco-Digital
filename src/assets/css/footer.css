@@ -49,7 +49,7 @@ margin-left: 15%;
 }
 .Redes_footer{
 display: flex;
-margin-left: 15%;
+margin-left: 6%;
 align-items: center;
 }
 .Logo_redes{
@@ -102,4 +102,25 @@ align-items: center;
 }
 hr{
     margin-top: 1%;
+}
+@media only screen and (max-width: 500px) {
+    .Redes_footer {
+        display: flex;
+        margin-left: 6%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Logo_redes {
+        display: flex;
+        color: rgb(255, 255, 255);
+        margin-left: 55%;
+        margin-top: -19%;
+        /* height: 1%; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 25%;
+        margin-top: -400px;
+        /* margin-bottom: 29px; */
+    }
 }
