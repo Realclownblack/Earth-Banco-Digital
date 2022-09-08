@@ -103,24 +103,84 @@ align-items: center;
 hr{
     margin-top: 1%;
 }
-@media only screen and (max-width: 500px) {
-    .Redes_footer {
+
+@media only screen and (max-width: 1100px) {
+    .footer_1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 80%;
         display: flex;
-        margin-left: 6%;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3% 4%;
+    }
+}
+ 
+@media only screen and (max-width: 900px) {
+    .logo {
+        width: 197px;
+        /* height: 8%; */
+        /* margin-top: 5%; */
+        margin-left: -2%;
+    }
+    .footer_1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 80%;
+        display: flex;
+        /* flex-wrap: nowrap; */
         flex-direction: column;
-        justify-content: center;
+        /* padding: 3% 4%; */
+        align-items: center;
+        text-align: center;
+    }
+    .Baixaapp {
+        /* display: flex; */
+        /* flex-direction: column; */
     }
     .Logo_redes {
         display: flex;
         color: rgb(255, 255, 255);
-        margin-left: 55%;
-        margin-top: -19%;
+        margin-left: 17%;
+        margin-top: 6%;
         /* height: 1%; */
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        width: 25%;
-        margin-top: -400px;
-        /* margin-bottom: 29px; */
+        /* justify-content: space-between; */
+        /* width: 38%; */
+        /* flex-wrap: nowrap; */
+    }
+    .footer_2 {
+        margin-top: -3.95%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+    }
+    .Text_Footer {
+        font-family: 'Poppins', sans-serif;
+        font-size: 65%;
+        opacity: .6!important;
+        /* display: flex; */
+        /* align-content: space-between; */
+        /* flex-direction: column; */
+        margin-left: 0%;
+    }
+    .text_nu1 {
+        margin-top: 2.8%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .text_nu2 {
+        margin-top: 2.8%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .text_nu3 {
+        margin-top: 2.8%;
+        width: 100%;
+        margin-bottom: 2%;
     }
 }
