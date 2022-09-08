@@ -120,7 +120,7 @@
     .info_parceiros {
         flex-direction: column;
         align-items: center;
-        margin-right: -83%;
+        margin-right: -86%;
         padding-top: 260px;
     }
     .parceiros_2 {
@@ -128,7 +128,7 @@
         flex-direction: row;
         align-content: center;
         justify-content: space-evenly; */
-        margin-top: 161px;
+        margin-top: 28%;
     }
     .parceiros{
         width: 100%;
@@ -142,6 +142,10 @@
         height: 310px;
         border-radius: 198px;
         border: 4px solid #fd6699;
+    }
+    .info_logo {
+        margin-top: -70px;
+        margin-right: -5%;
     }
   }
  
