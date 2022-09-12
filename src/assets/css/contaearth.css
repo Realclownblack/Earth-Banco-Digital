@@ -1,45 +1,49 @@
-.contaearth{
+.contaearth {
     width: 100%;
     height: 109%;
     padding: 60px;
     margin-top: 5%;
 }
-.recurso_1{
+
+.recurso_1 {
     border: 1px solid rgb(255, 0, 0);
     background-color: black;
 }
 
-.recursos{
-  display: flex;
-  height: 1079px;
-  margin-bottom: -241px;
-  padding: 139px 554px 41px 71px;
+.recursos {
+    display: flex;
+    height: 1079px;
+    margin-bottom: -241px;
+    padding: 139px 554px 41px 71px;
 }
-.coluna1{
+
+.coluna1 {
     gap: 1rem;
     width: 209%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-  .coluna2{
+}
+
+.coluna2 {
     margin-left: 2%;
     gap: 1rem;
     width: 209%;
     display: flex;
     flex-direction: column;
     margin-left: 14px;
- 
-  }
-  .coluna3{
+}
+
+.coluna3 {
     gap: 1rem;
     width: 209%;
     display: flex;
     flex-direction: column;
     margin-left: 16px;
     margin-top: 305px;
-  }
-  .pops{
+}
+
+.pops {
     background-color: #e6e6e6;
     height: 49%;
     display: flex;
@@ -49,8 +53,9 @@
     align-items: center;
     z-index: 35;
     padding: 17px;
-  }
-  .saiba_mais{
+}
+
+.saiba_mais {
     color: #fd6699;
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
@@ -58,189 +63,192 @@
     text-decoration: none;
     border-bottom: 1px solid #fd6699;
     margin-top: 20px;
-  }
-  .img_mulher{
+}
+
+.img_mulher {
     margin-top: -48%;
     width: 795px;
-  }
-  .barra{
+}
+
+.barra {
     padding: 4% 97px;
     background-color: #00ffb7;
     z-index: 25;
     position: relative;
-  }
-  .obsoletos{
+}
+
+.obsoletos {
     display: flex;
     flex-direction: row-reverse;
-  }
+}
 
-  .conta_titulo{
+.conta_titulo {
     font-family: 'Poppins', sans-serif;
     font-size: 144%;
-  }
-  .conta_info{
+}
+
+.conta_info {
     font-family: 'Poppins', sans-serif;
     font-size: 80%;
-  }
-  .text_conta{
+}
+
+.text_conta {
     font-family: 'Poppins', sans-serif;
     margin-left: 4%;
     width: 20%;
     margin-bottom: -84px;
     padding: 0% 18px;
-  }
-  #titulo_conta{
-    font-size: 90% ;
+}
+
+#titulo_conta {
+    font-size: 90%;
     opacity: 0.6;
-  }
-  #text_titulo{
+}
+
+#text_titulo {
     font-size: 181%;
-  }
-  @media only screen and (max-width: 1818px) {
+}
+
+@media only screen and (max-width: 1818px) {
     .text_conta {
-      font-family: 'Poppins', sans-serif;
-      margin-left: 4%;
-      width: 31%;
-      margin-bottom: -84px;
-      padding: 0% 18px;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 4%;
+        width: 31%;
+        margin-bottom: -84px;
+        padding: 0% 18px;
     }
-    .obsoletos{
-      display: flex;
-      flex-direction: row-reverse;
+    .obsoletos {
+        display: flex;
+        flex-direction: row-reverse;
     }
     .recursos {
-      padding: 139px 306px 41px 71px;
+        padding: 139px 306px 41px 71px;
     }
     .img_mulher {
-      margin-top: -75%;
+        margin-top: -75%;
     }
-  }
-  @media only screen and (max-width: 1700px) {
+}
+
+@media only screen and (max-width: 1700px) {
     .text_conta {
-      width: 27%;
+        width: 27%;
     }
-
     .img_mulher {
-      margin-top: -51%;
+        margin-top: -51%;
     }
     .recursos {
-      padding: 139px 306px 41px 71px;
+        padding: 139px 306px 41px 71px;
     }
-  }
+}
 
-  @media only screen and (max-width: 1820px) {
+@media only screen and (max-width: 1820px) {
     .text_conta {
-      width: 23%;
-  }
-
+        width: 23%;
+    }
     .recursos {
-      padding: 139px 526px 41px 71px;
+        padding: 139px 526px 41px 71px;
     }
-
     .img_mulher {
-      margin-top: -52%;
+        margin-top: -52%;
     }
-  }
-  @media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1600px) {
     .text_conta {
-      width: 26%;
+        width: 26%;
     }
-
     .recursos {
-      padding: 139px 432px 41px 71px;
+        padding: 139px 432px 41px 71px;
     }
-
     .img_mulher {
-      margin-top: -56%;
+        margin-top: -56%;
     }
-  }
-  @media only screen and (max-width: 1500px) {
+}
+
+@media only screen and (max-width: 1500px) {
     .recursos {
-      padding: 139px 436px 41px 71px;
+        padding: 139px 436px 41px 71px;
     }
-
     .img_mulher {
-      margin-top: -60%;
+        margin-top: -60%;
     }
-  }
-  @media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1400px) {
     .text_conta {
-      width: 29%;
-  }
+        width: 29%;
+    }
     .recursos {
-      padding: 139px 338px 41px 71px;
+        padding: 139px 338px 41px 71px;
     }
-
     .img_mulher {
-      margin-top: -65%;
+        margin-top: -65%;
     }
-  }
-  @media only screen and (max-width: 1300px) {
+}
+
+@media only screen and (max-width: 1300px) {
     .text_conta {
-      width: 31%;
-  }
+        width: 31%;
+    }
     .recursos {
-      padding: 139px 227px 41px 71px;
+        padding: 139px 227px 41px 71px;
     }
-
     .img_mulher {
-      margin-top: -75%;
+        margin-top: -75%;
     }
-  }
-  @media only screen and (max-width: 1228px) {
+}
+
+@media only screen and (max-width: 1228px) {
     .recursos {
-      padding: 139px 192px 41px 71px;
+        padding: 139px 192px 41px 71px;
     }
-
     .img_mulher {
-      margin-top: -77%;
+        margin-top: -77%;
     }
-  }
-  @media only screen and (max-width: 1100px) {
+}
+
+@media only screen and (max-width: 1100px) {
     /* .contaearth {
       display: none;
     } */
     .contaearth {
-      background-color: #e6e6e6;
-      width: 100%;
-      height: 109%;
-      padding: 60px;
-      margin-top: 5%;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      align-items: center;
-      text-align: center;
-   }
-  .barra {
-    /* padding: 4% 97px; */
-    /* background-color: #00ffb7; */
-    /* z-index: 25; */
-    /* position: relative; */
-    display: none;
-  }
-  .obsoletos {
-    /* display: flex; */
-    flex-direction: column;
-    margin-top: 100%;
-    margin-left: -11%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
-  .recursos {
-    padding: 139px 192px 41px 71px;
-    margin-top: 63%;
-    display: none;
- }
- .text_conta {
-  width: 100%;
-  margin-top: -16%;
-  margin-bottom: -13%;
+        background-color: #e6e6e6;
+        width: 100%;
+        height: 109%;
+        padding: 60px;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+    }
+    .barra {
+        /* padding: 4% 97px; */
+        /* background-color: #00ffb7; */
+        /* z-index: 25; */
+        /* position: relative; */
+        display: none;
+    }
+    .obsoletos {
+        /* display: flex; */
+        flex-direction: column;
+        margin-top: 100%;
+        margin-left: -11%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .recursos {
+        padding: 139px 192px 41px 71px;
+        margin-top: 63%;
+        display: none;
+    }
+    .text_conta {
+        width: 100%;
+        margin-bottom: -13%;
+    }
+    .img_mulher {
+        width: 100%;
+    }
 }
-.img_mulher {
-  width: 100%;
-}
-
-}
-

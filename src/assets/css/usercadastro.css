@@ -1,29 +1,31 @@
-
-.quadrado{
+.quadrado {
     background-color: #e6e6e6;
     width: 54%;
     height: 68vh;
     margin-top: 11%;
     margin-bottom: -28%;
 }
-.quadrado1{
+
+.quadrado1 {
     background-color: #00ffb7;
     width: 81%;
     height: 42vh;
     margin-left: 19%;
     z-index: 70;
 }
+
 .quadrado2 {
     z-index: 75;
     position: relative;
-    width: 350px;
+    width: 503px;
     background-color: #ffffff;
     margin-bottom: -16%;
     display: flex;
     margin-left: 22%;
+    height: 584px;
 }
 
-.form{
+.form {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #000;
@@ -39,26 +41,30 @@
     border-left: none;
     border-image: initial;
 }
-.text_pri{
+
+.text_pri {
     font-size: 174%;
 }
-.text_segun{
+
+.text_segun {
     font-size: 71%;
     text-align: center;
 }
-.text_tres{
-    font-size:85%;
+
+.text_tres {
+    font-size: 85%;
     text-align: center;
 }
-.caixa_text{
+
+.caixa_text {
     margin-top: 4%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     text-align: center;
-
 }
-.caixa{
+
+.caixa {
     width: 100%;
     margin-bottom: 10%;
     padding: 19px 85px;
@@ -69,7 +75,8 @@
     box-sizing: border-box;
     text-align: center;
 }
-.continuar{
+
+.continuar {
     color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
@@ -80,9 +87,12 @@
     border-radius: 9px;
     padding: 2% 29%;
 }
+
+
 /* .cadastro{
     padding: 0px;
 } */
+
 @media only screen and (max-width: 1100px) {
     .cadastro {
         /* padding: 0px; */
@@ -90,7 +100,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .quadrado{
+    .quadrado {
         background-color: #e6e6e6;
         width: 100%;
         height: 68vh;
@@ -100,13 +110,13 @@
     .quadrado2 {
         z-index: 75;
         position: relative;
-        width: 350px;
+        width: 362px;
         background-color: #ffffff;
         /* margin-bottom: -24%; */
         /* display: flex; */
         margin-right: 23%;
     }
-    .quadrado1{
+    .quadrado1 {
         background-color: #00ffb7;
         width: 100%;
         height: 42vh;
@@ -114,4 +124,3 @@
         z-index: 70;
     }
 }
- 
