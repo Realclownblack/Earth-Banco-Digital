@@ -1,73 +1,96 @@
 /* Position and sizing of burger button */
-.bm-burger-button {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  margin-left: -43px;
-  }
 
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
+.bm-burger-button {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    margin-left: -43px;
+}
+
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
     background: #373a47;
-  }
-  
-  /* Color/shape of burger icon bars on hover*/
-  /* .bm-burger-bars-hover {
+}
+
+
+/* Color/shape of burger icon bars on hover*/
+
+
+/* .bm-burger-bars-hover {
     background: #48D1CC;
   }
    */
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
+
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
     height: 28px;
     width: 24px;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
+}
+
+
+/* Color/shape of close button cross */
+
+.bm-cross {
     background: #bdc3c7;
-  }
-  
-  /*
+}
+
+
+/*
   Sidebar wrapper styles
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
-  .bm-menu-wrap {
+
+.bm-menu-wrap {
     position: fixed;
     height: 93%;
-  }
-  
-  /* General sidebar styles */
-  .bm-menu {
+}
+
+
+/* General sidebar styles */
+
+.bm-menu {
     background: #ffffff;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-  }
-  
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
+}
+
+
+/* Morph shape necessary with bubble or elastic */
+
+.bm-morph-shape {
     fill: #373a47;
-  }
-  
-  /* Wrapper for item list */
-  .bm-item-list {
+}
+
+
+/* Wrapper for item list */
+
+.bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
-  }
-  
-  /* Individual item */
-  .bm-item {
-    display: inline-block;
-  }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    background: transparent !important;
-  }
+}
 
-.customMenu{
+
+/* Individual item */
+
+.bm-item {
+    display: inline-block;
+}
+
+
+/* Styling of overlay */
+
+.bm-overlay {
+    background: transparent !important;
+}
+
+.customMenu {
     position: fixed;
     z-index: 1100 !important;
     width: 100vw !important;
@@ -79,175 +102,246 @@
     left: inherit;
     margin-top: 0px !important;
 }
-.conta{
-  background-color: aqua;
-  border-radius: 10px;
-  width: 71%;
-  height: 24%;
-}
-.temearth{
-  background-color: rgb(0, 0, 0);
-  border-radius: 10px;
-  width: 71%;
-  height: 24%;
-}
-.emprestimos{
-  background-color: rgb(255, 0, 242);
-  border-radius: 10px;
-  width: 71%;
-  height: 24%;
-}
-.open{
-  background-color: rgb(9, 255, 0);
-  border-radius: 10px;
-  width: 71%;
-  height: 24%;
-}
-.ajuda{
-  background-color: rgb(255, 8, 8);
-  border-radius: 10px;
-  width: 71%;
-  height: 24%;
-}
-.sobre{
-  background-color: rgb(255, 251, 0);
-  border-radius: 10px;
-  width: 71%;
-  height: 24%;
-}
-.Opcoes{
-  display: flex !important;
-  width: 73%;
-  height: 109%;
-  margin-top: -2%;
-}
-.colun1{
-  width: 24%;
-  margin-left: 15%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.colun2{
-  width: 32%;
-  margin-left: 9%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-.Barra_direita{
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  color: #000000;
-  background-color: #00ffb7;
-  width: 30%;
-  height: 93%;
-  margin-left: 69vw;
-  margin-top: -52%;
-  position: fixed;
+
+.conta {
+    background-color: aqua;
+    border-radius: 10px;
+    width: 71%;
+    height: 24%;
 }
 
-
-.Barra_dentro{
-  padding: 20%;
-}
-.Siga{
-  margin-top: 30px;
-  font-size: 25px;
-}
-.Barra_direta1{
-  background-color: #000000;
-  width: 30%;
-  height: 23%;
-  margin-left: 69vw;
-  position: fixed;
-  bottom: 0;
-}
-.Text_store{
-  padding: 5vh 25px;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-  font-size: 14px;
-}
-.store_logo{
-  display: flex;
-  margin-top: -50px;
-  margin-left: 10px;
-}
-.Logo_store{
-  width: 23vh;
-  padding: 18px 15px;
-}
-.redes_logo{
-  width: 6vh;
+.temearth {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 71%;
+    height: 24%;
 }
 
-@media only screen and (max-width: 1100px) {
-  .Barra_direita {
+.emprestimos {
+    background-color: rgb(255, 0, 242);
+    border-radius: 10px;
+    width: 71%;
+    height: 24%;
+}
+
+.open {
+    background-color: rgb(9, 255, 0);
+    border-radius: 10px;
+    width: 71%;
+    height: 24%;
+}
+
+.ajuda {
+    background-color: rgb(255, 8, 8);
+    border-radius: 10px;
+    width: 71%;
+    height: 24%;
+}
+
+.sobre {
+    background-color: rgb(255, 251, 0);
+    border-radius: 10px;
+    width: 71%;
+    height: 24%;
+}
+
+.Opcoes {
+    display: flex !important;
+    width: 73%;
+    height: 109%;
+    margin-top: -2%;
+}
+
+.colun1 {
+    width: 24%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.colun2 {
+    width: 32%;
+    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.Barra_direita {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #000000;
     background-color: #00ffb7;
-    width: 100%;
-    height: 1;
-    height: 10000px;
-    margin-left: 415px;
+    width: 30%;
+    height: 93%;
+    margin-left: 69vw;
+    margin-top: -52%;
     position: fixed;
-    margin-top: -643px;
- }
-  .Barra_direta1 {
-    /* background-color: #000000; */
-    width: 0%;
-    /* height: 23%; */
-    /* margin-left: 69vw; */
-    /* position: fixed; */
-    /* display: none; */
-  }
-  .Barra_dentro {
-    /* padding: 20%; */
-    display: none;
-  }
-  .Text_store {
-    /* padding: 5vh 25px; */
-    /* text-transform: uppercase; */
-    /* color: rgb(255, 255, 255); */
-    /* font-family: 'Poppins', sans-serif; */
-    /* color: #fff; */
-    font-size: 0px;
- }
- .store_logo {
-  /* display: flex; */
-  /* margin-top: -50px; */
-  /* margin-left: 10px; */
-  display: none;
- }
- .Barra_direita {
-  /* display: flex; */
-  /* font-family: 'Poppins', sans-serif; */
-  /* font-size: 18px; */
-  color: #000000;
-  background-color: #00ffb7;
-  width: 6%;
-  height: 1;
-  height: 10000px;
-  margin-left: 91%;
-  position: fixed;
-  margin-top: -643px; 
-  /* flex-direction: column; */
-  /* align-items: flex-end; */
- }
 }
-@media only screen and (max-width: 1000px) {
-  .menu {
-    margin-top: -19px;
-  }
+
+.Barra_dentro {
+    padding: 20%;
 }
-@media only screen and (max-width: 500px) {
-  .menu {
-    margin-top: -19px;
-  }
+
+.Siga {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.Barra_direta1 {
+    background-color: #000000;
+    width: 30%;
+    height: 23%;
+    margin-left: 69vw;
+    position: fixed;
+    bottom: 0;
+}
+
+.Text_store {
+    padding: 5vh 25px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+.store_logo {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+.Logo_store {
+    width: 23vh;
+    padding: 18px 15px;
+}
+
+.redes_logo {
+    width: 6vh;
+}
+
+@media only screen and (max-width: 1100px) {
+    .Barra_direita {
+        /* font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        color: #000000;
+        background-color: #00ffb7; */
+        width: 0%;
+        /* height: 93%; */
+        /* margin-left: 69vw; */
+        /* margin-top: -52%;
+        position: fixed; */
+        opacity: 0;
+    }
+    .Barra_direta1 {
+        /* background-color: #000000; */
+        width: 0%;
+        /* height: 23%; */
+        /* margin-left: 69vw; */
+        /* position: fixed; */
+        /* display: none; */
+    }
+    .Barra_dentro {
+        /* padding: 20%; */
+        display: none;
+    }
+    .Text_store {
+        /* padding: 5vh 25px; */
+        /* text-transform: uppercase; */
+        /* color: rgb(255, 255, 255); */
+        /* font-family: 'Poppins', sans-serif; */
+        /* color: #fff; */
+        font-size: 0px;
+    }
+    .store_logo {
+        /* display: flex; */
+        /* margin-top: -50px; */
+        /* margin-left: 10px; */
+        display: none;
+    }
+    .Barra_direita {
+        /* display: flex; */
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-size: 18px; */
+        /* color: #000000;
+        background-color: #00ffb7; */
+        /* width: 0%; */
+        /* height: 1;
+        height: 10000px;
+        margin-left: 91%;
+        position: fixed;
+        margin-top: -643px; */
+        /* flex-direction: column; */
+        /* align-items: flex-end; */
+    }
+    .Opcoes {
+        display: grid !important;
+        width: 100%;
+        /* height: 100%; */
+        margin-top: -2%;
+    }
+    .colun1 {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .colun2 {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
+        align-items: center;
+    }
+    .sobre {
+        background-color: rgb(136, 255, 0);
+        border-radius: 10px;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+    }
+    .ajuda {
+        background-color: aqua;
+        border-radius: 10px;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+    }
+    .conta {
+        background-color: aqua;
+        border-radius: 10px;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+    }
+    .open {
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+    }
+    .temearth {
+        background-color: rgb(253, 14, 46);
+        border-radius: 10px;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+    }
+    .emprestimos {
+        background-color: aqua;
+        border-radius: 10px;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+    }
 }
