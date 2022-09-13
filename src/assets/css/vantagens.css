@@ -93,8 +93,8 @@
     .container {
         background-color: #00ffb7;
         margin-top: 0%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 0%;
+        margin-right: 0%;
         display: flex;
         flex-direction: column;
         align-items: center;

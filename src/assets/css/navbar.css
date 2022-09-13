@@ -4,6 +4,9 @@
     width: 100%;
     height: 100vh;
 }
+.img-homem{
+    
+}
 .nav_2{
     background-color: #F2F2F2;
     margin-top: 25%;
@@ -41,9 +44,40 @@ height: 75px;
     position: relative;
     padding: 5px 20px;
 }
-@media only screen and (max-width: 1228px) {
-    .slide{
+.img-mulhe{
+    width: 100%;
+    margin-left: 12%;
     display: none;
+}
+@media only screen and (max-width: 1228px) {
+    .CentralText {
+        font-family: 'Poppins', sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        /* margin-bottom: 17px; */
+        /* margin-left: -178px; */
+        /* padding: 27%; */
+        /* display: flex; */
+        /* flex-direction: row-reverse; */
+        text-align: center;
+    }
+    .slide {
+        background: url(retrato-de-uma-jovem-surpreendida.png);
+        background-size: contain;
+        width: 100%;
+        /* height: 100vh; */
+        margin-top: 25%;
+        /* background-repeat: no-repeat;
+        background-color: palevioletred; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-mulhe{
+        display: none;
+        width: 100%;
+        margin-left: 12%;
+        display: inline;
     }
 }
     

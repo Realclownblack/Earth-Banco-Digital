@@ -171,14 +171,15 @@ li {
     position: fixed;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     row-gap: 10px;
     grid-template-columns: repeat(10, 1fr);
     background-color: #ffffff;
     padding: 7% 13%;
     margin-top: -25%;
-    width: 101%;
-  }
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+}
   .menu_compacto {
     padding: 2.5% 12%;
     margin-top: -25%;

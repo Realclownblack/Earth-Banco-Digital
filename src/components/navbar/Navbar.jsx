@@ -1,9 +1,13 @@
 import '../../assets/css/navbar.css'
+import img from '../../assets/img/retrato-de-uma-jovem-surpreendida.png'
 export const Navbar = () => {
     return(
         <div>
             <div className='slide'>
                 <div className='CentralText'>
+                    <div className='img-div'>
+                        <img className='img-mulhe' src={img} alt="" />
+                    </div>
                     <p>Conta grátis, <br /> 
                     100% digital e com serviços ilimitados</p>
                     <br />
