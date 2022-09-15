@@ -65,7 +65,8 @@ height: 75px;
         margin-left: -1rem;
         position: relative;
         padding: 5px 63px;
-        margin-bottom: -8%;
+        margin-bottom: -2%;
+        margin-top: -5%;
     }
     .CentralText {
         font-family: 'Poppins', sans-serif;
