@@ -147,72 +147,55 @@
 
 .Opcoes {
     display: flex !important;
-    width: 73%;
-    height: 109%;
-    margin-top: -2%;
-}
-
-.colun1 {
-    width: 24%;
-    margin-left: 15%;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+.colunas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 2%;
+}
+.caixa_menu{
+    background-color: rgb(136, 255, 0);
+    border-radius: 10px;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 5%; 
+}
+.colun1 {
+    width: 100%;
 }
 
 .colun2 {
-    width: 32%;
-    margin-left: 9%;
+    width: 100%;
+}
+.informacoes{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: flex-end;
-}
+    justify-content: space-between;
+    width: 100%;
+    height: 89%;
 
-.Barra_direita {
+}
+.text_titulo_menu{
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #000000;
-    background-color: #00ffb7;
-    width: 30%;
-    height: 93%;
-    margin-left: 69vw;
-    margin-top: -52%;
-    position: fixed;
+    font-size: 19px;
+    color: #000;
 }
-
-.Barra_dentro {
-    padding: 20%;
-}
-
-.Siga {
-    margin-top: 30px;
-    font-size: 25px;
-}
-
-.Barra_direta1 {
-    background-color: #000000;
-    width: 30%;
-    height: 23%;
-    margin-left: 69vw;
-    position: fixed;
-    bottom: 0;
-}
-
-.Text_store {
-    padding: 5vh 25px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
+.text_span_menu{
     font-family: 'Poppins', sans-serif;
-    color: #fff;
     font-size: 14px;
 }
-
-.store_logo {
-    display: flex;
-    margin-top: -50px;
-    margin-left: 10px;
+.text_titulo_conta{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    opacity: 1.3;
+}
+.text_tem{
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px; 
 }
 
 .Logo_store {
@@ -225,59 +208,14 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    .Barra_direita {
-        /* font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        color: #000000;
-        background-color: #00ffb7; */
-        width: 0%;
-        /* height: 93%; */
-        /* margin-left: 69vw; */
-        /* margin-top: -52%;
-        position: fixed; */
-        opacity: 0;
+    .colunas {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 7%;
+        flex-wrap: wrap;
     }
-    .Barra_direta1 {
-        /* background-color: #000000; */
-        width: 0%;
-        /* height: 23%; */
-        /* margin-left: 69vw; */
-        /* position: fixed; */
-        /* display: none; */
-    }
-    .Barra_dentro {
-        /* padding: 20%; */
-        display: none;
-    }
-    .Text_store {
-        /* padding: 5vh 25px; */
-        /* text-transform: uppercase; */
-        /* color: rgb(255, 255, 255); */
-        /* font-family: 'Poppins', sans-serif; */
-        /* color: #fff; */
-        font-size: 0px;
-    }
-    .store_logo {
-        /* display: flex; */
-        /* margin-top: -50px; */
-        /* margin-left: 10px; */
-        display: none;
-    }
-    .Barra_direita {
-        /* display: flex; */
-        /* font-family: 'Poppins', sans-serif; */
-        /* font-size: 18px; */
-        /* color: #000000;
-        background-color: #00ffb7; */
-        /* width: 0%; */
-        /* height: 1;
-        height: 10000px;
-        margin-left: 91%;
-        position: fixed;
-        margin-top: -643px; */
-        /* flex-direction: column; */
-        /* align-items: flex-end; */
-    }
+  
     .Opcoes {
         display: grid !important;
         width: 100%;
@@ -302,46 +240,39 @@
         align-items: flex-end;
         align-items: center;
     }
-    .sobre {
+    .caixa_menu{
         background-color: rgb(136, 255, 0);
         border-radius: 10px;
         width: 100%;
         height: 40%;
-        margin-bottom: 5%;
+        margin-bottom: 5%; 
     }
-    .ajuda {
-        background-color: aqua;
-        border-radius: 10px;
+    
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 100%;
-        height: 40%;
-        margin-bottom: 5%;
+        height: 89%;
+    
     }
-    .conta {
-        background-color: aqua;
-        border-radius: 10px;
-        width: 100%;
-        height: 40%;
-        margin-bottom: 5%;
+    .text_titulo_menu{
+        font-family: 'Poppins', sans-serif;
+        font-size: 19px;
+        color: #000;
     }
-    .open {
-        background-color: rgb(0, 0, 0);
-        border-radius: 10px;
-        width: 100%;
-        height: 40%;
-        margin-bottom: 5%;
+    .text_span_menu{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
     }
-    .temearth {
-        background-color: rgb(253, 14, 46);
-        border-radius: 10px;
-        width: 100%;
-        height: 40%;
-        margin-bottom: 5%;
+    .text_titulo_conta{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        opacity: 1.3;
     }
-    .emprestimos {
-        background-color: aqua;
-        border-radius: 10px;
-        width: 100%;
-        height: 40%;
-        margin-bottom: 5%;
+    .text_tem{
+        margin-top: 3%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px; 
     }
 }
