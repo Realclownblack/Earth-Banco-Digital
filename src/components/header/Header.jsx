@@ -12,6 +12,20 @@ export const Header = (props) => {
         });
         }, []);
 
+    const[isHovering, setIsHoverring] = useState(false);
+    const[isHovering_1, setIsHoverring_1] = useState(false);
+
+    const handleMouseOver = (props) => {
+        setIsHoverring(true);
+        setIsHoverring_1(true);
+
+    };
+
+    const handleMouseOut = () => {
+        setIsHoverring(false);
+        setIsHoverring_1(false);
+    };
+
     return (
         <div className={scroll ? "header_home menu_compacto" : "header_home"}>
             <div className='container-left'>
@@ -21,14 +35,29 @@ export const Header = (props) => {
                 </div>
                 <p className={scroll ? "Text Text_aparecer" : "Text"}>
                     Earth | {props.pagina}</p>
-                <ul className={scroll ? "Menu esconder_menu" : "Menu"}>
-                    <li id='1'>Conta</li>
-                    <li id='2'>Tem No Earth</li>
-                    <li id='3'>Earth Poupa</li>
+                <div className={scroll ? "Menu esconder_menu" : "Menu"}>
+                    
+                    <div className='menu-button-aparecer'
+                                onMouseOver={handleMouseOver}
+                                onMouseOut={handleMouseOut}>
+                        <a className='button_normal' >Conta</a>
+                        <span  className={isHovering ? 'menu-button-conta' : 'menu-escondido-conta'}>
+                      
+                        </span>
+                    </div>
+                    <a className='button_normal' >Earth Poupa</a>
+                    <div className='menu-button-aparecer'
+                                onMouseOver={handleMouseOver}
+                                onMouseOut={handleMouseOut}>
+                        <a className='button_normal' >Tem No Earth</a>
+                        <span className={isHovering ? 'menu-button' : 'menu_escondido'}>
+
+                        </span>
+                    </div>
                     <li id='4'>Open Finance</li>
                     <li id='5'>Sobre Nós</li>
                     <li id='6'>Ajuda</li>
-                </ul>
+                </div>
             </div>
             <div className='menu'>
                 <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
