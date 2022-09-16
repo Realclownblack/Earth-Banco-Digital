@@ -50,21 +50,58 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
-.menu-button{
+.menu-button {
   display: inline;
   position: absolute;
   background-color: #fd6699;
   display: flex;
-  width: 214px;
-  height: 219px;
+  margin: 0 auto;
+  background: #fd6699;
+  line-height: 1.6em;
+  width: 246px;
+  height: auto;
+  color: #fff;
+  padding: 115px;
+  margin-top: 20px;
 }
-.menu-button-conta{
+.menu-button:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #fd6699;
+  top: -20px;
+  left: 14%;
+}
+.menu-button-conta {
   display: inline;
   position: absolute;
-  background-color: #fd6699;
   display: flex;
-  width: 150px;
-  height: 219px;
+  margin: 0 auto;
+  background: #fd6699;
+  font-size: 0.85em;
+  line-height: 1.6em;
+  width: 239px;
+  height: auto;
+  color: #fff;
+  padding: 115px;
+  margin-top: 20px;
+  margin-left: -2%;
+}
+.menu-button-conta:after{ 
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+  /*Aqui entra a cor da "aba" do balão */
+  border-bottom: 20px solid #fd6699;
+  top: -20px; /*localização. Experimente alterar para 'bottom'*/
+  left: 11%;
 }
 .menu-escondido-conta{
   display: none;

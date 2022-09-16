@@ -16,14 +16,26 @@ export const Header = (props) => {
     const[isHovering_1, setIsHoverring_1] = useState(false);
 
     const handleMouseOver = (props) => {
-        setIsHoverring(true);
-        setIsHoverring_1(true);
-
+        if (props == 1){
+            setIsHoverring_1(true);
+            console.log(props)
+        };
+        if(props == 2){
+            setIsHoverring(true); 
+        };
+           
+    
     };
 
-    const handleMouseOut = () => {
-        setIsHoverring(false);
-        setIsHoverring_1(false);
+    const handleMouseOut = (props) => {
+        if (props == 1){
+            setIsHoverring_1(false);
+        };
+        if(props == 2){
+          setIsHoverring(false);  
+        };
+        
+        
     };
 
     return (
@@ -38,17 +50,17 @@ export const Header = (props) => {
                 <div className={scroll ? "Menu esconder_menu" : "Menu"}>
                     
                     <div className='menu-button-aparecer'
-                                onMouseOver={handleMouseOver}
-                                onMouseOut={handleMouseOut}>
+                                onMouseOver={() => handleMouseOver(1)}
+                                onMouseOut={() => handleMouseOut (1)}>
                         <a className='button_normal' >Conta</a>
-                        <span  className={isHovering ? 'menu-button-conta' : 'menu-escondido-conta'}>
+                        <span  className={isHovering_1 ? 'menu-button-conta' : 'menu-escondido-conta'}>
                       
                         </span>
                     </div>
                     <a className='button_normal' >Earth Poupa</a>
                     <div className='menu-button-aparecer'
-                                onMouseOver={handleMouseOver}
-                                onMouseOut={handleMouseOut}>
+                                onMouseOver={() =>handleMouseOver(2)}
+                                onMouseOut={() => handleMouseOut(2)}>
                         <a className='button_normal' >Tem No Earth</a>
                         <span className={isHovering ? 'menu-button' : 'menu_escondido'}>
 
