@@ -12,8 +12,9 @@ export const Header = (props) => {
         });
         }, []);
 
-    const[isHovering, setIsHoverring] = useState(false);
+    const[isHovering_0, setIsHoverring_0] = useState(false);
     const[isHovering_1, setIsHoverring_1] = useState(false);
+    const[isHovering_2, setIsHoverring_2] = useState(false);
 
     const handleMouseOver = (props) => {
         if (props == 1){
@@ -21,10 +22,13 @@ export const Header = (props) => {
             console.log(props)
         };
         if(props == 2){
-            setIsHoverring(true); 
+            setIsHoverring_2(true); 
         };
+        if(props == 0){
+            setIsHoverring_0(true); 
+        };
+
            
-    
     };
 
     const handleMouseOut = (props) => {
@@ -32,9 +36,11 @@ export const Header = (props) => {
             setIsHoverring_1(false);
         };
         if(props == 2){
-          setIsHoverring(false);  
+          setIsHoverring_2(false);  
         };
-        
+        if(props == 0){
+            setIsHoverring_0(false);  
+          };
         
     };
 
@@ -53,8 +59,29 @@ export const Header = (props) => {
                                 onMouseOver={() => handleMouseOver(1)}
                                 onMouseOut={() => handleMouseOut (1)}>
                         <a className='button_normal' >Conta</a>
-                        <span  className={isHovering_1 ? 'menu-button-conta' : 'menu-escondido-conta'}>
-                      
+                        <span  className={isHovering_1 ? 'menu-button-conta' : 'menu-escondido'}>
+                            <ul className={isHovering_1 ? 'menu-button' : 'menu-escondido-button'}>
+                                <a  className='a-menu' href="https://www.coca-cola.com.br/">
+                                    <li className='button-conteudo' ><p>Conta Earth</p>
+                                        <span className='menu-text-dentro'>Conta grátis com serviços ilimitados.</span>
+                                    </li>
+                                </a>
+
+                                <hr />
+                                <a className='a-menu' href="">
+                                    <li className='button-conteudo'><p>EarthJoy</p> 
+                                        <span className='menu-text-dentro'>Conta digital e gratuita para menores de idade, com toda magia da Disney.</span>
+                                    </li>
+                                </a>
+
+                                <hr />
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo'><p>Login</p> 
+                                        <span className='menu-text-dentro'>Segurança e comodidade e com Earth</span>
+                                    </li>                                    
+                                </a>
+
+                            </ul>
                         </span>
                     </div>
                     <a className='button_normal' >Earth Poupa</a>
@@ -62,13 +89,70 @@ export const Header = (props) => {
                                 onMouseOver={() =>handleMouseOver(2)}
                                 onMouseOut={() => handleMouseOut(2)}>
                         <a className='button_normal' >Tem No Earth</a>
-                        <span className={isHovering ? 'menu-button' : 'menu_escondido'}>
-
+                        <span className={isHovering_2 ? 'menu-button-earth' : 'menu_escondido'}>
+                            <ul>
+                                <a  className='a-menu' href="https://www.coca-cola.com.br/">
+                                    <li className='button-conteudo-2' ><p>Cartões earth</p>
+                                        <span className='menu-text-dentro'>Cartões sem anuidade, pagamentos digitais e mimos exclusivos.</span>
+                                    </li>
+                                </a>
+                                <hr />
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-2'><p>Investimentos</p> 
+                                        <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span>
+                                    </li>                                    
+                                </a>
+                                <hr />
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-2'><p>Empréstimos</p> 
+                                        <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span>
+                                    </li>                                    
+                                </a> 
+                                <hr />  
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-2'><p>Seguros</p> 
+                                        <span className='menu-text-dentro'>Seguros para proteger o que conquistou e cuidar do seu bem-estar.</span>
+                                    </li>                                    
+                                </a> 
+                                <hr />  
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-2'><p>Pix</p> 
+                                        <span className='menu-text-dentro'>Um novo jeito de fazer pagamentos e transferências.</span>
+                                    </li>                                    
+                                </a> 
+                                <hr />  
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-2'><p>Whatsapp</p> 
+                                        <span className='menu-text-dentro'>Mais um jeito rápido, seguro e prático de pagar com o earth.</span>
+                                    </li>                                    
+                                </a>  
+                                <hr /> 
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-2'><p>Indique amigos</p> 
+                                        <span className='menu-text-dentro'>Chame seus amigos para abrir conta no earth.</span>
+                                    </li>                                    
+                                </a>                       
+                            </ul>
+                        </span>
+                    </div>
+                    <div className='menu-button-aparecer'
+                                onMouseOver={() =>handleMouseOver(0)}
+                                onMouseOut={() => handleMouseOut(0)}>
+                        <a className='button_normal' >Ajuda</a>
+                        <span className={isHovering_0 ? 'menu-button-ajuda' : 'menu_escondido'}>
+                            <ul>
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-3'><p>Duvidas</p></li>                                    
+                                </a>  
+                                <hr /> 
+                                <a  className='a-menu' href="">
+                                    <li className='button-conteudo-3'><p>Contatos</p></li>                                    
+                                </a>  
+                            </ul>
                         </span>
                     </div>
                     <li id='4'>Open Finance</li>
                     <li id='5'>Sobre Nós</li>
-                    <li id='6'>Ajuda</li>
                 </div>
             </div>
             <div className='menu'>

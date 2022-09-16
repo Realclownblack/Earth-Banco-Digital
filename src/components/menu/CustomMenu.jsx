@@ -36,7 +36,7 @@ class CustomMenu extends Component {
                             <p className='text_titulo_menu'>EarthJoy</p>
                             <p className='text_span_menu'>Conta digital e gratuita para menores de idade, com toda magia da Disney.</p>
                         </div>
-                        <hr />
+                        <hr id='hr-menu' />
                         <p className='text_tem'>Tem no Earth</p>
                     </div>                
                 <div className='colunas'>
@@ -45,121 +45,133 @@ class CustomMenu extends Component {
                         <ul>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Account</p>
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Cartões earth</p>
                                         <p>Cartões sem anuidade, pagamentos digitais e mimos exclusivos.</p>
-                                        <a id="Account" className="menu-item" href="/">Account</a>
+                                        <a className="menu-item" href='/' >Conhecer</a>
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Have on Earth</p>
-                                        <a id="Have_on_Earth" className="menu-item" href="/about">Have on Earth</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Mimos</p>
+                                        <p>Quem é earth tem descontos exclusivos para aproveitar.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                       
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Investimentos</p>
+                                        <p>Investimentos que combinam com todos os tipos de perfil.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                      
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Empréstimos</p>
+                                        <p>Crédito com a opção de contratar direto pelo app.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                      
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Seguros</p>
+                                        <p>Seguros para proteger o que conquistou e cuidar do seu bem-estar.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                       
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Pix</p>
+                                        <p>Um novo jeito de fazer pagamentos e transferências.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                     
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Whatsapp</p>
+                                        <p>Mais um jeito rápido, seguro e prático de pagar com o earth.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                        
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Indique amigos</p>
+                                        <p>Chame seus amigos para abrir conta no earth.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                        
                                     </span>
                                 </div>
                             </li>
                         </ul>
 
                     </div>
-                <div className='colun2'>
+                    <div className='colun2'>
                         <ul>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Open Finance</p>
-                                        <a id="Open_Finance" className="menu-item" href="/contact">Open Finance</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Open Finance</p>
+                                        <p>Mais poder pra você fazer acontecer.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                        
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Help</p>
-                                        <a id="Help" className="menu-item" href="/contact">Help</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Sobre nós</p>
+                                        <p>O banco 100% digital que veio pra ajudar a fazer os planos acontecerem.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                       
                                     </span>
                                 </div>                        
                             </li> 
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>About Us</p>
-                                        <p>O banco 100% digital que veio pra ajudar a fazer os planos acontecerem.</p>
-                                        <a id="About Us" className="menu-item" href="/contact">About Us</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>Carreiras</p>
+                                        <p>Venha fazer parte do time que faz acontecer.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                        
                                     </span>
                                 </div>                        
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>What's earth</p>
+                                        <p>Aqui você fica por dentro de tudo o que acontece no next e encontra dicas para fazer acontecer!</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                       
                                     </span>
                                 </div>
                             </li>
                             <li>
                                 <div className='caixa_menu'>
-                                    <span>
-                                        <p>Loans</p>
-                                        <a id="Loans" className="menu-item" href="/contact">Loans</a>                                        
+                                    <span className='span-text'>
+                                        <p className='span-menu-titulo'>earthShop</p>
+                                        <p>Ofertas Incríveis de grandes lojas com cashback em até 7 dias.</p>
+                                        <a className="menu-item" href="/">Conhecer</a>                                       
                                     </span>
                                 </div>
                             </li>  
                         </ul>
-                </div>                    
+
+                    </div>                    
                 </div>
-
-                
-
+                        <div className='barra-menu'>
+                            <h1>1</h1>
+                        </div>                
             </div>
            
           </Menu>
