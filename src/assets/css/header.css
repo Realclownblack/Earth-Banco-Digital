@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
     grid-template-columns: repeat(10, 1fr);
     background-color: #ffffff;
     padding: 1% 6%;
-    width: 101%;
+    width: 100%;
     transition: all linear .3s;
 }
 
@@ -54,17 +54,18 @@ body::-webkit-scrollbar-thumb {
 .menu-button-earth {
     box-shadow: 4px 4px 6px rgb(190 190 190);
     display: inline;
-    position: absolute;
+    position: fixed;
     background-color: #e7e7e7;
     display: flex;
     margin: 0 auto;
     background: #e7e7e7;
     line-height: 1.6em;
-    width: 275px;
-    height: 850px;
+    width: 191px;
     color: #fff;
     margin-top: 20px;
     padding: 1%;
+    display: flex;
+    align-items: center;
 }
 
 .menu-button-earth:after {
@@ -82,18 +83,19 @@ body::-webkit-scrollbar-thumb {
 .menu-button-conta {
     box-shadow: 4px 4px 6px rgb(190 190 190);
     display: inline;
-    position: absolute;
+    position: fixed;
+    background-color: #e7e7e7;
     display: flex;
     margin: 0 auto;
-    background-color: #e7e7e7;
     background: #e7e7e7;
-    font-size: 0.85em;
     line-height: 1.6em;
-    width: 237px;
-    height: 450px;
-    color: rgb(0, 0, 0);
+    width: 191px;
+    height: 169px;
+    color: #fff;
     margin-top: 20px;
-    margin-left: -2%;
+    padding: 1%;
+    align-items: center;
+    flex-direction: column;
 }
 
 .menu-button-conta:after {
@@ -113,13 +115,11 @@ body::-webkit-scrollbar-thumb {
     display: inline;
     position: absolute;
     display: flex;
-    flex-direction: column;
-    padding: 5%;
-    margin-top: 19%;
+    padding: 6%;
     width: 100%;
-    height: 72%;
-    justify-content: space-around;
+    height: 100%;
     text-align: initial;
+    flex-direction: column;
 }
 
 .menu-escondido-button {

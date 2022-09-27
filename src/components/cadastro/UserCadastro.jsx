@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import '../../assets/css/usercadastro.css'
+import { Link } from 'react-router-dom';
 
 export const Usercadastro = () => {
 
     return (
         <nav className='cadastro'>
-          <div className="quadrado">
+          <div className="quadrado" id='cadastro'>
           </div>
           <div className="quadrado2">
             <div className="form">
@@ -18,7 +19,8 @@ export const Usercadastro = () => {
                 <input className="caixa" type="text" placeholder="Email*"/>
                 <input className="caixa" type="text" placeholder="Telefone*"/>
               </div>
-             <button className='continuar'>CONTINUAR</button>
+              <Link  to="/cadastro" className='cadastro-link'> <button className='continuar'>CONTINUAR</button></Link>
+            
              <p className="text_tres">Ao continuar, você permite que o banco next entre em contato com você pelos canais informados.</p>
             </div>
               

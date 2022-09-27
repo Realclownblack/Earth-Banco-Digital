@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import { Header_pages } from '../components/header_pages/Header_pages'
-import { Footer} from '../components/footer/Footer'
-import { Usercadastro } from '../components/cadastro/UserCadastro'
+import { Header } from '../components/header/Header'
+import {Footer} from '../components/footer/Footer'
+import { Cadastro_banco } from '../components/cadastro/Cadastro_banco'
+
 class Cadastro extends Component {
     state = {  } 
     render() { 
         return (
             <>
-            <Header_pages pagina='Vem Fazer Parte Do Maior Banco Digital Do Brasil'/>
-            <Usercadastro/>
+            <Header pagina='Vem Fazer Parte Do Maior Banco Digital Do Brasil'/>
+            <Cadastro_banco/>
             <Footer/>
             </>
         );

@@ -63,21 +63,20 @@ export const Header = (props) => {
                             <ul className={isHovering_1 ? 'menu-button' : 'menu-escondido-button'}>
                                 <a  className='a-menu' href="https://www.coca-cola.com.br/">
                                     <li className='button-conteudo' ><p>Conta Earth</p>
-                                        <span className='menu-text-dentro'>Conta grátis com serviços ilimitados.</span>
                                     </li>
                                 </a>
 
                                 <hr />
                                 <a className='a-menu' href="">
                                     <li className='button-conteudo'><p>EarthJoy</p> 
-                                        <span className='menu-text-dentro'>Conta digital e gratuita para menores de idade, com toda magia da Disney.</span>
+                                      
                                     </li>
                                 </a>
 
                                 <hr />
                                 <a  className='a-menu' href="">
                                     <li className='button-conteudo'><p>Login</p> 
-                                        <span className='menu-text-dentro'>Segurança e comodidade e com Earth</span>
+                        
                                     </li>                                    
                                 </a>
 
@@ -89,47 +88,47 @@ export const Header = (props) => {
                                 onMouseOver={() =>handleMouseOver(2)}
                                 onMouseOut={() => handleMouseOut(2)}>
                         <a className='button_normal' >Tem No Earth</a>
-                        <span className={isHovering_2 ? 'menu-button-earth' : 'menu_escondido'}>
+                        <span className={isHovering_2 ? 'menu_escondido' : 'menu-button-earth'}>
                             <ul>
                                 <a  className='a-menu' href="https://www.coca-cola.com.br/">
                                     <li className='button-conteudo-2' ><p>Cartões earth</p>
-                                        <span className='menu-text-dentro'>Cartões sem anuidade, pagamentos digitais e mimos exclusivos.</span>
+                                        {/* <span className='menu-text-dentro'>Cartões sem anuidade, pagamentos digitais e mimos exclusivos.</span> */}
                                     </li>
                                 </a>
                                 <hr />
                                 <a  className='a-menu' href="">
                                     <li className='button-conteudo-2'><p>Investimentos</p> 
-                                        <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span>
+                                        {/* <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span> */}
                                     </li>                                    
                                 </a>
                                 <hr />
                                 <a  className='a-menu' href="">
                                     <li className='button-conteudo-2'><p>Empréstimos</p> 
-                                        <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span>
+                                        {/* <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span> */}
                                     </li>                                    
                                 </a> 
                                 <hr />  
                                 <a  className='a-menu' href="">
                                     <li className='button-conteudo-2'><p>Seguros</p> 
-                                        <span className='menu-text-dentro'>Seguros para proteger o que conquistou e cuidar do seu bem-estar.</span>
+                                        {/* <span className='menu-text-dentro'>Seguros para proteger o que conquistou e cuidar do seu bem-estar.</span> */}
                                     </li>                                    
                                 </a> 
                                 <hr />  
                                 <a  className='a-menu' href="">
                                     <li className='button-conteudo-2'><p>Pix</p> 
-                                        <span className='menu-text-dentro'>Um novo jeito de fazer pagamentos e transferências.</span>
+                                        {/* <span className='menu-text-dentro'>Um novo jeito de fazer pagamentos e transferências.</span> */}
                                     </li>                                    
                                 </a> 
                                 <hr />  
                                 <a  className='a-menu' href="">
                                     <li className='button-conteudo-2'><p>Whatsapp</p> 
-                                        <span className='menu-text-dentro'>Mais um jeito rápido, seguro e prático de pagar com o earth.</span>
+                                        {/* <span className='menu-text-dentro'>Mais um jeito rápido, seguro e prático de pagar com o earth.</span> */}
                                     </li>                                    
                                 </a>  
                                 <hr /> 
                                 <a  className='a-menu' href="">
                                     <li className='button-conteudo-2'><p>Indique amigos</p> 
-                                        <span className='menu-text-dentro'>Chame seus amigos para abrir conta no earth.</span>
+                                        {/* <span className='menu-text-dentro'>Chame seus amigos para abrir conta no earth.</span> */}
                                     </li>                                    
                                 </a>                       
                             </ul>
