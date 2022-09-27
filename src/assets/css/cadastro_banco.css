@@ -30,12 +30,12 @@
     text-align: center;
 }
 .form-cadastro{
-    padding: 56px;
+    padding: 72px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 589px;
+    width: 546px;
     height: 744px;
     justify-content: space-evenly;
     border-radius: 11px;
@@ -83,4 +83,16 @@
     width: 469px;
     height: 29%;
     justify-content: space-evenly;
+}
+
+.UserLogin-Radio{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#user-logo{
+    width: 111px;
+}
+.user-logo{
+    width: 100%;
 }

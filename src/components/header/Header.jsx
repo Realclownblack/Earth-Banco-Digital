@@ -75,9 +75,7 @@ export const Header = (props) => {
 
                                 <hr />
                                 <a  className='a-menu' href="">
-                                    <li className='button-conteudo'><p>Login</p> 
-                        
-                                    </li>                                    
+                                    <Link to={'/login'}> <li className='button-conteudo'><p>Login</p></li></Link>                                    
                                 </a>
 
                             </ul>
@@ -88,7 +86,7 @@ export const Header = (props) => {
                                 onMouseOver={() =>handleMouseOver(2)}
                                 onMouseOut={() => handleMouseOut(2)}>
                         <a className='button_normal' >Tem No Earth</a>
-                        <span className={isHovering_2 ? 'menu_escondido' : 'menu-button-earth'}>
+                        <span className={isHovering_2 ? 'menu-button-earth' : 'menu_escondido'}>
                             <ul>
                                 <a  className='a-menu' href="https://www.coca-cola.com.br/">
                                     <li className='button-conteudo-2' ><p>Cartões earth</p>

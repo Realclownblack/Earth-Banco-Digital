@@ -1,0 +1,89 @@
+.UserLogin-div{
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.UserLogin-div-form{
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: flex;
+    width: 39%;
+    height: 392px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-login{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    color: #fd6699;
+}
+.UserLogin-todos{
+    position: absolute;
+    z-index: 95;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.UserLogin-caixa{
+    width: 68%;
+    margin-bottom: 10%;
+    padding: 19px 85px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.UserLogon-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.img-userlogin-baixo{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.img-mari{  
+    position: fixed
+}
+.UserLogin-logar{
+    padding: 2%;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-rendering: auto;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 309.5px;
+    background-color: #fd6699;
+    text-transform: none;
+    border: 1px solid white;
+}
+.link-user{
+    text-decoration: none;
+    color: #000;
+    color: #fd6699;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #fd6699;
+    margin-top: 20px;
+}

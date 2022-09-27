@@ -20,10 +20,8 @@ export const Usercadastro = () => {
                 <input className="caixa" type="text" placeholder="Telefone*"/>
               </div>
               <Link  to="/cadastro" className='cadastro-link'> <button className='continuar'>CONTINUAR</button></Link>
-            
              <p className="text_tres">Ao continuar, você permite que o banco next entre em contato com você pelos canais informados.</p>
             </div>
-              
           </div>
           <div className="quadrado1">
           </div>
