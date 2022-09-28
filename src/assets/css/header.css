@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 0;
     list-style: none;
     display: flex;
-    margin-left: 42px;
+    margin-left: 32px;
 }
 
 .menu {
@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #e7e7e7;
     display: flex;
     margin: 0 auto;
-    background: #e7e7e7;
+    background: #ffffff;
     line-height: 1.6em;
     width: 191px;
     color: #fff;
@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #e7e7e7;
+    border-bottom: 20px solid #ffffff;
     top: -20px;
     left: 14%;
 }
@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #e7e7e7;
     display: flex;
     margin: 0 auto;
-    background: #e7e7e7;
+    background: #ffffff;
     line-height: 1.6em;
     width: 191px;
     height: 169px;
@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #e7e7e7;
+    border-bottom: 20px solid #ffffff;
     top: -20px;
     left: 11%;
 }
@@ -168,20 +168,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .menu-button-ajuda {
-    box-shadow: 4px 4px 6px rgb(190 190 190);
+    box-shadow: 4px 4px 6px rgb(235 235 235);
     display: inline;
     position: absolute;
-    background-color: #e7e7e7;
     display: flex;
     margin: 0 auto;
-    background: #e7e7e7;
+    background: #ffffff;
     line-height: 1.6em;
-    width: 246px;
-    height: 187px;
+    width: 169px;
     color: #fff;
     padding: 2%;
     margin-top: 20px;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .menu-button-ajuda:after {
@@ -191,7 +190,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #e7e7e7;
+    border-bottom: 20px solid #ffffff;
     top: -20px;
     left: 8%;
 }
@@ -210,7 +209,7 @@ li {
 }
 
 .button_home {
-    width: 238.5px;
+    width: 210.5px;
     height: 60px;
     background-color: #fd6699;
     text-transform: none;
@@ -329,9 +328,10 @@ li {
         row-gap: 10px;
         grid-template-columns: repeat(10, 1fr);
         background-color: #ffffff;
-        padding: 7% 13%;
-        margin-top: -25%;
+        padding: -1% 12%;
+        /* margin-top: -5%; */
         width: 100%;
+        padding-top: 0%;
         flex-direction: row;
         align-items: flex-start;
     }
@@ -365,7 +365,7 @@ li {
         grid-template-columns: repeat(10, 1fr);
         background-color: #ffffff;
         padding: 9% 11%;
-        margin-top: -35%;
+        margin-top: -40%;
         width: 100%;
     }
     .menu_compacto {

@@ -22,7 +22,7 @@ export const UserLogin = () =>{
             </div>
             <div className='img-userlogin-baixo'>
                 <img className='img-mari' src={mari} alt="" />
-                <img className='user-login-img' src={curva_3} alt="" />                
+                <img className='user-login-img-2' src={curva_3} alt="" />                
             </div>
 
         </div>
