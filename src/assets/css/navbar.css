@@ -1,11 +1,11 @@
 .slide{
-    background: url('../img/african-american-man.jpg');
+    background: url('../img/cover-tata-desk.png');
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
-.img-homem{
-    
+.img-mulhe{
+    margin-right: 13%;
 }
 .nav_2{
     background-color: #F2F2F2;
@@ -25,12 +25,16 @@ width: 247px;
 height: 75px;
 }
 .CentralText{
+    display: flex;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 30px;
+    width: 96%;
     margin-bottom: 0;
-    margin-left: -178px;
-    padding: 20%;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 18%;
+    justify-content: space-between;
 }
 
 .CentralText span{
@@ -72,11 +76,11 @@ height: 75px;
         font-family: 'Poppins', sans-serif;
         color: rgb(0, 0, 0);
         font-size: 30px;
-        /* margin-bottom: 17px; */
+        margin-bottom: 17px;
         margin-left: 0px;
         padding: 0%;
-        /* display: flex; */
-        /* flex-direction: row-reverse; */
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
     .slide {

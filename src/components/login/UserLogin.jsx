@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import curva_3 from  '../../assets/img/curva-3.svg'
 import curva_4 from  '../../assets/img/curva-4.svg'
 import mari from  '../../assets/img/MariSimoes.png'
+
 export const UserLogin = () =>{
     return(
         <div className='UserLogin-div'>

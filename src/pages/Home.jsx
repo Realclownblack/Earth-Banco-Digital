@@ -8,6 +8,8 @@ import {Vantagens} from '../components/vantagens/Vantagens'
 import {Parceiros} from '../components/parceiros/Parceiros'
 import { Contaearth } from '../components/contaearth/Contaearth'
 import {Ajuda_duvida} from '../components/ajuda/Ajuda_duvida'
+import { PagarContas } from '../components/componentsStatic/earthFacilidades/PagarContas'
+
 class Home extends Component {
     state = {  } 
     render() { 
@@ -17,6 +19,7 @@ class Home extends Component {
             <Navbar/>
             <Vantagens/>
             <Contaearth/>
+            <PagarContas/>
             <Parceiros/>
             <Ajuda_duvida/>
             <Usercadastro/>

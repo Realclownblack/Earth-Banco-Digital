@@ -1,7 +1,7 @@
 import '../../assets/css/vantagens.css'
-import img_0 from '../../assets/img/img_0.jpg'
-import img_1 from '../../assets/img/img_1.jpg'
-import img_2 from '../../assets/img/img_2.jpg'
+import img_0 from '../../assets/img/beneficios-card1-new.png'
+import img_1 from '../../assets/img/beneficios-card3-new.png'
+import img_2 from '../../assets/img/beneficios-card2-new.png'
 import { Link } from 'react-router-dom';
 
 

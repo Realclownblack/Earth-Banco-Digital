@@ -65,6 +65,9 @@
     padding-left: 62%;
     margin-top: -12%;
 }
+.user-login-img-2{
+    z-index: 97;
+}
 .UserLogin-logar{
     padding: 2%;
     cursor: pointer;
