@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     padding-top: 5%;
-    background-color: rgb(255, 255, 255);
+    background-color:  var(--CorBranca);
     /* height: 1000px; */
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@
 .UserLogin-div-form{
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     border-radius: 12px;
-    background-color: #ffffff;
+    background-color:  var(--CorBranca);
     display: flex;
     width: 453px;
     height: 392px;
@@ -23,7 +23,7 @@
 .text-login{
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
-    color: #fd6699;
+    color:  var(--CorRosa);
 }
 .UserLogin-todos{
     position: fixed;
@@ -76,21 +76,21 @@
     text-rendering: auto;
     text-align: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color:  var(--CorBranca);
     width: 309.5px;
-    background-color: #fd6699;
+    background-color:  var(--CorRosa);
     text-transform: none;
-    border: 1px solid white;
+    border: 1px solid  var(--CorBranca);
 }
 .link-user{
     text-decoration: none;
     color: #000;
-    color: #fd6699;
+    color:  var(--CorRosa);
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     text-decoration: none;
-    border-bottom: 1px solid #fd6699;
+    border-bottom: 1px solid  var(--CorRosa);
     margin-top: 20px;
 }
 
@@ -99,7 +99,7 @@
         width: 100%;
         display: flex;
         margin-top: 25%;
-        background-color: rgb(255, 255, 255);
+        background-color:  var(--CorBranca);
         height: 491px;
         flex-direction: column;
         align-items: center;
@@ -110,7 +110,7 @@
     .UserLogin-div-form {
         box-shadow: none;
         border-radius: 12px;
-        background-color: #ffffff;
+        background-color:  var(--CorBranca);
         display: flex;
         width: 100%;
         height: 392px;

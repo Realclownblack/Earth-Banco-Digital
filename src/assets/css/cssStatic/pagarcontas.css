@@ -1,3 +1,4 @@
+
 .PagarConta-div{
     display: flex;
     width: 98%;
@@ -13,15 +14,14 @@
     display: flex;
     width: 100%;
     height: 371px;
-    background-color: #e6e6e6;
+    background-color: var(--corCinza);
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: -5%;
+    margin-left: -9%;
 }
 
-
 #title-text{
-    color: #fd6699;
+    color: var(--CorRosa);
     font-size: 45px;
 }

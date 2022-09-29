@@ -1,5 +1,5 @@
 .Footer {
-    color: rgb(255, 255, 255);
+    color: var(--CorBranca);
     width: 100%;
     margin-top: -10%;
     z-index: 98;
@@ -62,7 +62,7 @@
 
 .Logo_redes {
     display: flex;
-    color: rgb(255, 255, 255);
+    color:  var(--CorBranca);
     margin-left: 55%;
     margin-top: -19%;
     height: 1%;
@@ -132,7 +132,7 @@ hr {
     }
     .Logo_redes {
         display: flex;
-        color: rgb(255, 255, 255);
+        color: var(--CorBranca);
         margin-left: 55%;
         margin-top: -19%;
         height: 1%;
@@ -166,7 +166,7 @@ hr {
     }
     .Logo_redes {
         display: flex;
-        color: rgb(255, 255, 255);
+        color:  var(--CorBranca);
         margin-left: 0%;
         margin-top: 6%;
         /* height: 1%; */

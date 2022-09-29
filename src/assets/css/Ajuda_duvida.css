@@ -1,6 +1,5 @@
 .Ajuda {
     margin-top: 5%;
-    /* background-color: #e6e6e6; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,8 +41,8 @@
     padding: 0px;
     cursor: pointer;
     /* background-color: #e6e6e6; */
-    background-color: #ffffff;
-    border: #ffffff;
+    background-color: var(--CorBranca);
+    border:  var(--CorBranca);
 }
 
 .todas_duvidas {
@@ -53,12 +52,12 @@
 
 .abrir_duvidas {
     width: 100%;
-    border: 1px solid #fd6699;
+    border: 1px solid var(--CorRosa);
     border-radius: 7px;
-    color: #fd6699;
+    color: var(--CorRosa);
     padding: 1.25rem 3rem;
     cursor: pointer;
-    background-color: white;
+    background-color:  var(--CorBranca);
 
 }
 
@@ -83,7 +82,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: white;
+    background-color:  var(--CorBranca);
 }
 
 .duvidas-li {
@@ -100,12 +99,12 @@
 }
 
 .entre-contato {
-    color: #fd6699;
+    color:  var(--CorRosa);
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-decoration: none;
-    border-bottom: 1px solid #fd6699;
+    border-bottom: 1px solid  var(--CorRosa);
     margin-top: 20px;
 }
 

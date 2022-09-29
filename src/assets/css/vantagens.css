@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .container {
-    background-color: #00ffb7;
+    background-color:  var(--CorVerde);
     margin-top: -25%;
     margin-left: 5%;
     margin-right: 5%;
@@ -92,7 +92,7 @@
 @media only screen and (max-width: 1100px) {
     
     .container {
-        background-color: #00ffb7;
+        background-color:  var(--CorVerde);
         margin-top: -19%;
         margin-left: 0%;
         margin-right: 0%;

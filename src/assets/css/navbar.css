@@ -8,12 +8,11 @@
     margin-right: 13%;
 }
 .nav_2{
-    background-color: #F2F2F2;
+    background-color:  var(--corCinza);
     margin-top: 25%;
 }
 .Button_Poupar{
 margin-left: 81.9%;
-background-color: #48D1CC;
 width: 248px;
 height: 75px;
 margin-top: 0%;
@@ -41,7 +40,7 @@ height: 75px;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     color: black;
-    background-color: #00ffb7;
+    background-color:  var(--CorVerde);
     display: inline-block;
     padding: 0 1rem;
     margin-left: -1rem;
@@ -63,7 +62,7 @@ height: 75px;
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
         color: black;
-        background-color: #00ffb7;
+        background-color:  var(--CorVerde);
         display: inline-block;
         padding: 0 1rem;
         margin-left: -1rem;

@@ -1,5 +1,5 @@
 .parceiros{
-    background-color: #e6e6e6;
+    background-color:  var(--corCinza);
     width: 100%;
     height: 80%;
     margin-top: 10%;
@@ -29,7 +29,7 @@
     width: 360px;
     height: 351px;
     border-radius: 198px;
-    border: 4px solid #fd6699;
+    border: 4px solid  var(--CorRosa);
 }
 .info_logo{
     margin-top: -70px;
@@ -38,12 +38,12 @@
     text-align: center;
 }
 .button_parceiros{
-    color: #fd6699;
+    color:  var(--CorRosa);
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-decoration: none;
-    border-bottom: 1px solid #fd6699;
+    border-bottom: 1px solid  var(--CorRosa);
     margin-top: 20px;
 }
 .text_name{
@@ -68,7 +68,7 @@
     font-size: 25px;
 }
 .circulo1{
-    background-color: #fd6699;
+    background-color:  var(--CorRosa);
     width: 95px;
     position: relative;
     z-index: 50;
@@ -77,7 +77,7 @@
     margin-top: -345px;
 }
 .circulo2{
-    background-color: #fd6699;
+    background-color:  var(--CorRosa);
     width: 100px;
     position: relative;
     z-index: 50;
@@ -87,7 +87,7 @@
     margin-left: 13%;
 }
 .circulo3{
-    background-color: #fd6699;
+    background-color:  var(--CorRosa);
     width: 65px;
     position: relative;
     z-index: 50;
@@ -148,7 +148,7 @@
         width: 307px;
         height: 310px;
         border-radius: 198px;
-        border: 4px solid #fd6699;
+        border: 4px solid  var(--CorRosa);
     }
     .info_logo {
         margin-top: -70px;

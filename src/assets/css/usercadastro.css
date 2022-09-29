@@ -5,7 +5,7 @@
     align-items: flex-start;
 }
 .quadrado {
-    background-color: #e6e6e6;
+    background-color: var(--corCinza);
     width: 75%;
     height: 46vw;
     margin-top: 5%;
@@ -13,7 +13,7 @@
 }
 
 .quadrado1 {
-    background-color: #00ffb7;
+    background-color: var(--CorVerde);
     width: 81%;
     height: 42vh;
     margin-left: 19%;
@@ -24,7 +24,7 @@
     z-index: 75;
     position: relative;
     width: 503px;
-    background-color: #ffffff;
+    background-color: var(--CorBranca);
     margin-bottom: -16%;
     display: flex;
     margin-left: 22%;
@@ -88,7 +88,7 @@
     font-size: 11px;
     margin-top: 10%;
     margin-bottom: 5%;
-    background-color: #f06390;
+    background-color: var(--CorRosa);
     border: 0;
     border-radius: 9px;
     padding: 9% 100%;
@@ -111,7 +111,7 @@
         align-items: center;
     }
     .quadrado {
-        background-color: #e6e6e6;
+        background-color: var(--corCinza);
         width: 100%;
         height: 68vh;
         /* margin-top: 11%; */
@@ -121,13 +121,13 @@
         z-index: 75;
         position: relative;
         width: 436px;
-        background-color: #ffffff;
+        background-color: var(--CorBranca);
         /* margin-bottom: -24%; */
         /* display: flex; */
         margin-right: 23%;
     }
     .quadrado1 {
-        background-color: #00ffb7;
+        background-color: var(--CorVerde);
         width: 100%;
         height: 42vh;
         margin-left: 0%;

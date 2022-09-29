@@ -211,7 +211,7 @@ li {
 .button_home {
     width: 210.5px;
     height: 60px;
-    background-color: #fd6699;
+    background-color:  var(--CorRosa);
     text-transform: none;
 }
 
