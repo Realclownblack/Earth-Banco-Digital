@@ -1,4 +1,5 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../../assets/css/Ajuda_duvida.css'
 
 export const Ajuda_duvida = () => {
@@ -64,7 +65,7 @@ export const Ajuda_duvida = () => {
                 </div>
             </div>
             <div className='todas_duvidas'>
-                <button className='abrir_duvidas'>TODAS AS DUVIDAS</button>
+                <Link to={'/duvidas'} > <button className='abrir_duvidas'>TODAS AS DUVIDAS</button></Link>
                 <p id='ou'>ou</p>
                 <a className='entre-contato' href="">ENTRE EM CONTATO</a>
             </div>
