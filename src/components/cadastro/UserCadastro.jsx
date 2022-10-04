@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import '../../assets/css/usercadastro.css'
 import { Link } from 'react-router-dom';
+import muiti_mais from '../../assets/img/GabrielaSgarbi-removebg-preview.png'
+import logo_preto from '../../assets/img/earth bank preto.png'
+import google_play from '../../assets/img/google-play.svg'
+import app_store from '../../assets/img/app-store.svg'
 
 export const Usercadastro = () => {
 
@@ -24,6 +28,14 @@ export const Usercadastro = () => {
             </div>
           </div>
           <div className="quadrado1">
+            <div className='div-verde'>
+              <img className='img-logo-preto' src={logo_preto} alt="" />
+              <div className='div-app-store'>
+                <img src={google_play} alt="" />
+                <img src={app_store} alt="" />
+              </div>
+              </div>
+            <img className='img-gabi' src={muiti_mais} alt="" />
           </div>
         </nav>
     )

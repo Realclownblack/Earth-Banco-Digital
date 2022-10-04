@@ -18,7 +18,7 @@
 }
 
 .duvidas {
-    width: 50%;
+    width: 72%;
 }
 
 .accordionBox {
@@ -83,6 +83,7 @@
     flex-direction: column;
     align-items: flex-start;
     background-color:  var(--CorBranca);
+    font-size: 15px;
 }
 
 .duvidas-li {

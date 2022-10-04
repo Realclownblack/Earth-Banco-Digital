@@ -4,6 +4,7 @@ import Cadastro from "./pages/Cadastro"
 import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Duvidas from "./pages/Duvidas";
+import About from "./pages/About";
 
 export const RoutesJS = () => {
    return(
@@ -13,6 +14,7 @@ export const RoutesJS = () => {
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/duvidas" element={<Duvidas/>} />
+        <Route path="/about" element={<About/>} />
       </Routes>
     </BrowserRouter>
    )
