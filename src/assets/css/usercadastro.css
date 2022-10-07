@@ -23,7 +23,7 @@
 }
 .img-gabi{
     position: absolute;
-    margin-top: -33%; 
+    margin-top: -23%; 
 }
 .div-verde{
     background-color: var(--CorVerde);
@@ -122,7 +122,7 @@
 }
 .div-app-store{
     margin-right: 11%;
-    height: 62%;
+    height: 53%;
     display: flex;
     flex-direction: column;
     align-items: center;

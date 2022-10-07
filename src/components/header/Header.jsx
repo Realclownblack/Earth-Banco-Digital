@@ -61,10 +61,12 @@ export const Header = (props) => {
                         <a className='button_normal' >Conta</a>
                         <span  className={isHovering_1 ? 'menu-button-conta' : 'menu-escondido'}>
                             <ul className={isHovering_1 ? 'menu-button' : 'menu-escondido-button'}>
+                                <Link to="/contaearth" className='a-menu'>
                                 <a  className='a-menu' href="https://www.coca-cola.com.br/">
                                     <li className='button-conteudo' ><p>Conta Earth</p>
                                     </li>
                                 </a>
+                                </Link>
 
                                 <hr />
                                 <a className='a-menu' href="">

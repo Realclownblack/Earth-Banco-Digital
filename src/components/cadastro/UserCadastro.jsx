@@ -29,8 +29,8 @@ export const Usercadastro = () => {
           </div>
           <div className="quadrado1">
             <div className='div-verde'>
-              <img className='img-logo-preto' src={logo_preto} alt="" />
               <div className='div-app-store'>
+                <img className='img-logo-preto' src={logo_preto} alt="" />
                 <img src={google_play} alt="" />
                 <img src={app_store} alt="" />
               </div>

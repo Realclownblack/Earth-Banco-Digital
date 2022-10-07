@@ -1,0 +1,37 @@
+.NavbarContaearth-div{
+    display: flex;
+    padding-top: 5%;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25%;
+    flex-direction: column;
+}
+#img_tata2{
+    width: 100%;
+}
+.img-contaearth-1{
+    width: 100%;
+}
+.NavbarContaearth-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 560px;
+    height: 87%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#text-nav-1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    width: 476px;
+    color: #fff;
+}
+#text-nav-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 558px;
+    margin-left: 14%;
+    color: #fff;
+}

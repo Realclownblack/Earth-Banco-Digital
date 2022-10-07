@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Duvidas from "./pages/Duvidas";
 import About from "./pages/About";
+import ContaEarth from "./pages/ContaEarth";
 
 export const RoutesJS = () => {
    return(
@@ -15,6 +16,7 @@ export const RoutesJS = () => {
         <Route path="/login" element={<Login/>} />
         <Route path="/duvidas" element={<Duvidas/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/contaearth" element={<ContaEarth/>} />
       </Routes>
     </BrowserRouter>
    )
