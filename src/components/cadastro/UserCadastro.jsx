@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../../assets/css/usercadastro.css'
 import { Link } from 'react-router-dom';
-import muiti_mais from '../../assets/img/GabrielaSgarbi-removebg-preview.png'
+import muiti_mais from '../../assets/img/Vectary texture (6).png'
+import celular from '../../assets/img/Vectary texture (4).png'
 import logo_preto from '../../assets/img/earth bank preto.png'
 import google_play from '../../assets/img/google-play.svg'
 import app_store from '../../assets/img/app-store.svg'
@@ -35,7 +36,8 @@ export const Usercadastro = () => {
                 <img src={app_store} alt="" />
               </div>
               </div>
-            <img className='img-gabi' src={muiti_mais} alt="" />
+              <img className='img-celular' src={celular} alt="" />
+              <img className='img-alien' src={muiti_mais} alt="" />
           </div>
         </nav>
     )

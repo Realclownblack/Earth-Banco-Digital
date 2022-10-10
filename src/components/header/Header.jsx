@@ -77,7 +77,7 @@ export const Header = (props) => {
 
                                 <hr />
                                 <a  className='a-menu' href="">
-                                    <Link to={'/login'}> <li className='button-conteudo'><p>Login</p></li></Link>                                    
+                                    <Link to={'/login'} className='a-menu'> <li className='button-conteudo'><p>Login</p></li></Link>                                    
                                 </a>
 
                             </ul>

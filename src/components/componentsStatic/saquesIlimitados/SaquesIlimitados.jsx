@@ -12,7 +12,7 @@ export const SaquesIlimitados = () => {
                 <a id='button-saques-mapa' href="">VEJA NO MAPA</a>
             </div>
             <div className=' Saquesilimitados-img'>
-                <img src={img_mulher} alt="" />
+                <img className='img-saques' src={img_mulher} alt="" />
             </div>
         </div>
     

@@ -3,6 +3,8 @@ import { Header } from '../components/header/Header'
 import {Footer} from '../components/footer/Footer'
 import { NavbarContaEarth } from '.././components/navbar/NavbarContaEarth'
 import {SaquesIlimitados} from '../components/componentsStatic/saquesIlimitados/SaquesIlimitados'
+import { Usercadastro } from '../components/cadastro/UserCadastro'
+import { PagamentosDigitais } from '../components/componentsStatic/pagamentosDigitais/PagamentosDigitais'
 
 
 
@@ -14,6 +16,8 @@ class ContaEarth extends Component {
             <Header pagina={'Conta gratuita Facil De abrir'}/>
             <NavbarContaEarth/>
             <SaquesIlimitados/>
+            <PagamentosDigitais/>
+            <Usercadastro/>
             <Footer/>
             </>
         );

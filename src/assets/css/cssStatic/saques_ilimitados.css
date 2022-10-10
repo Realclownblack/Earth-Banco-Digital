@@ -5,6 +5,8 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 8%;
+    padding-top: 8%;
 }
 
 .Saquesilimitados-text{
@@ -15,9 +17,10 @@
     justify-content: space-around;
     align-items: flex-start;
 }
-.Saquesilimitados-img{
-
+.img-saques{
+    width: 448px;
 }
+
 #text-1{
     font-family: 'Poppins', sans-serif;
     font-size: 39px;
