@@ -8,6 +8,7 @@ import {Vantagens} from '../components/vantagens/Vantagens'
 import {Parceiros} from '../components/parceiros/Parceiros'
 import { Contaearth } from '../components/contaearth/Contaearth'
 import {Ajuda_duvida} from '../components/ajuda/Ajuda_duvida'
+import { ContasCadastradas } from '../components/contasCadastradas/ContasCadastradas'
 
 class Home extends Component {
     state = {  } 
@@ -19,6 +20,7 @@ class Home extends Component {
             <Vantagens/>
             <Contaearth/>
             <Parceiros/>
+            <ContasCadastradas/>
             <Ajuda_duvida/>
             <Usercadastro/>
             <Footer/>

@@ -4,7 +4,7 @@ export const MuitoMais = () => {
     return(
         <div className='MuitoMais-div'>
             <div  className='MuitoMais-div-img'>
-                <img src={Mascote} alt="" />
+                <img src={Mascote} alt="" className='img-mascote'/>
             </div>
             <div  className='MuitoMais-div-text'>
                 <p id='Text-titulo-muitoMais'>E muito mais:</p>

@@ -9,7 +9,7 @@ export const PixEarth = () => {
                 <p id='PixEarth-text-info-pix'>Com as chaves Pix, suas transações são autenticadas e ficam seguras. Pra cadastrar a sua 🔑 no earth, é só abrir o app em Menu = Pix e seguir o passo a passo</p>
             </div>
             <div className='PixEarth-img'>
-                <img src={curva} alt="" />
+                <img id='img-curva-pix' src={curva} alt=""  />
             </div>
         </div>
     

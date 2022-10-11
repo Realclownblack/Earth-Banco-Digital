@@ -21,6 +21,7 @@
 .PagamentosDigitais-caixa-digitais{
     display: flex;
     height: 100%;
+    width: 70%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
