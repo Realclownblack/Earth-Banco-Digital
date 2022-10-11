@@ -42,7 +42,7 @@
 #ContasCadastradas-img{
     width: 640px;
     position: absolute;
-    margin-left: -37%;
+    margin-left: -40%;
     animation: float 5s linear infinite;
     margin-top: -50px;
 }

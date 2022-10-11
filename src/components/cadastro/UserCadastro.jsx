@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import '../../assets/css/usercadastro.css'
 import { Link } from 'react-router-dom';
 import celular from '../../assets/img/Vectary texture (4).png'
-import logo_preto from '../../assets/img/earth bank preto.png'
-import google_play from '../../assets/img/google-play.svg'
-import app_store from '../../assets/img/app-store.svg'
 
 export const Usercadastro = () => {
 
@@ -13,6 +10,7 @@ export const Usercadastro = () => {
           <div className="quadrado" id='cadastro'>
           <img className='img-celular' src={celular} alt="" />
           </div>
+          <img className='img-celular-2' src={celular} alt="" />
           <div className="quadrado2">
             <div className="form">
               <p className="text_pri">Quero Ser Earth</p>
@@ -32,11 +30,6 @@ export const Usercadastro = () => {
           </div>
           <div className="quadrado1">
             <div className='div-verde'>
-              <div className='div-app-store'>
-                <img className='img-logo-preto' src={logo_preto} alt="" />
-                <img src={google_play} alt="" />
-                <img src={app_store} alt="" />
-              </div>
               </div>
           </div>
         </nav>
