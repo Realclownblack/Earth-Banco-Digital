@@ -25,7 +25,7 @@ export const PagamentosDigitais = () => {
                         <img className='PagamentosDigitais-logos' src={logo_pay} alt="" />
                         <p id='text-titulo-pagamentos-digitais'>Apple Pay</p>
                     </div>
-                    <div className='PagamentosDigitais-text-info'>Dá pra adicionar seu cartão de débito ou crédito no Apple Pay direto no app do next e já começar a pagar tudo online e por aproximação.</div>
+                    <div className='PagamentosDigitais-text-info'>Dá pra adicionar seu cartão de débito ou crédito no Apple Pay direto no app do earth e já começar a pagar tudo online e por aproximação.</div>
                     <a href="" className='PagamentosDigitais-saibaMais'>SAIBA MAIS</a>
                 </div>
                 <div className='PagamentosDigitais-cubo'>
@@ -41,7 +41,7 @@ export const PagamentosDigitais = () => {
                     <img className='PagamentosDigitais-logos-samsung' src={logo_samsungpay} alt="" />
                         <p id='text-titulo-pagamentos-digitais'>Samsung Pay</p>
                     </div>
-                    <div className='PagamentosDigitais-text-info'>Tem celular ou smartwatch da Samsung? Adicione o seu cartão next na Samsung Pay para pagar por aproximação.</div>
+                    <div className='PagamentosDigitais-text-info'>Tem celular ou smartwatch da Samsung? Adicione o seu cartão earth na Samsung Pay para pagar por aproximação.</div>
                     <a href="" className='PagamentosDigitais-saibaMais'>SAIBA MAIS</a>
                 </div>
                 <div className='PagamentosDigitais-cubo'>
@@ -57,7 +57,7 @@ export const PagamentosDigitais = () => {
                     <img className='PagamentosDigitais-logos' src={logo_qrcode} alt="" />
                         <p id='text-titulo-pagamentos-digitais'>QR Code</p>
                     </div>
-                    <div className='PagamentosDigitais-text-info'>Com seu Android, você paga compras nas máquinas Cielo por QR Code sem precisar do cartão por perto e nem logar no app next.</div>
+                    <div className='PagamentosDigitais-text-info'>Com seu Android, você paga compras nas máquinas Cielo por QR Code sem precisar do cartão por perto e nem logar no app earth.</div>
                     <a href="" className='PagamentosDigitais-saibaMais'>SAIBA MAIS</a>
                 </div>
                 <div className='PagamentosDigitais-cubo'>
@@ -73,7 +73,7 @@ export const PagamentosDigitais = () => {
                     <img className='PagamentosDigitais-logos-aprocimacao' src={logo_aprocimacao} alt="" />
                         <p id='text-titulo-pagamentos-digitais'>Pagamento por aproximação</p>
                     </div>
-                    <div className='PagamentosDigitais-text-info'>Com seu novo cartão next, basta aproximar o cartão da maquininha e pronto! Tá pago!</div>
+                    <div className='PagamentosDigitais-text-info'>Com seu novo cartão earth, basta aproximar o cartão da maquininha e pronto! Tá pago!</div>
                     <a href="" className='PagamentosDigitais-saibaMais'>SAIBA MAIS</a>
                 </div>
                 <div className='PagamentosDigitais-cubo'>

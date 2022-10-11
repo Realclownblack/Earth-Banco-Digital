@@ -1,0 +1,43 @@
+.PixEarth-div{
+    width: 97%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.PixEarth-Servicos{
+    width: 500px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#PixEarth-text-maior{
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+}
+#PixEarth-text-info-pix{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+#PixEarth-text-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: black;
+}
+@media only screen and (max-width: 1100px) {
+    .PixEarth-div {
+        display: none;
+    }
+
+    .PagamentosDigitais-div {
+        background-color: var(--corCinza);
+        width: 100%;
+        margin-bottom: 292%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
