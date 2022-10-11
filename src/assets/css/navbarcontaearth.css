@@ -7,6 +7,7 @@
     flex-direction: column;
 }
 #img_tata2{
+    margin-top: 20px;
     width: 100%;
 }
 .img-contaearth-1{
@@ -24,14 +25,14 @@
 }
 #text-nav-1{
     font-family: 'Poppins', sans-serif;
-    font-size: 62px;
+    font-size: 51px;
     width: 476px;
-    color: #fff;
+    color: var(--CorBranca);
 }
 #text-nav-2{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    width: 558px;
-    margin-left: 14%;
-    color: #fff;
+    font-size: 12px;
+    width: 367px;
+    margin-left: -18%;
+    color: var(--CorBranca);
 }

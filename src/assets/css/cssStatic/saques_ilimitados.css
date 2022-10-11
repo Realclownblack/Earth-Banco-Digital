@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 8%;
-    padding-top: 8%;
 }
 
 .Saquesilimitados-text{
@@ -18,7 +17,7 @@
     align-items: flex-start;
 }
 .img-saques{
-    width: 448px;
+    width: 327px;
 }
 
 #text-1{
