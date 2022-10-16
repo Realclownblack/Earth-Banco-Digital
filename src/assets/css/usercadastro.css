@@ -9,6 +9,7 @@
 .quadrado {
     background-color: var(--corCinza);
     width: 100%;
+    height: 458px;
     margin-bottom: -7px;
 }
 .img-celular-2{

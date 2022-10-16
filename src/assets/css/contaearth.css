@@ -208,9 +208,9 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    /* .contaearth {
+    .contaearth {
       display: none;
-    } */
+    }
     .contaearth {
         background-color:  var(--corCinza);
         width: 100%;
@@ -222,6 +222,7 @@
         flex-wrap: nowrap;
         align-items: center;
         text-align: center;
+        display: none;
     }
     .barra {
         /* padding: 4% 97px; */

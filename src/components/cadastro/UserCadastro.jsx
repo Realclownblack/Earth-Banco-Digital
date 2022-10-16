@@ -24,7 +24,7 @@ export const Usercadastro = () => {
                 <input className="caixa" type="text" placeholder="Email*" required/>
                 <input className="caixa" type="text" placeholder="Telefone*" required/>
               </form>
-              <Link  to="/cadastro" className='cadastro-link'> <button type='submit' className='continuar'>CONTINUAR</button></Link>
+              <Link  to="/cadastro" className='cadastro-link' type='submit'> <button type='submit' className='continuar'>CONTINUAR</button></Link>
              <p className="text_tres">Ao continuar, você permite que o banco next entre em contato com você pelos canais informados.</p>
             </div>
           </div>
