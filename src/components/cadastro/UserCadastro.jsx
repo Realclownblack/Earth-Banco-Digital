@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../../assets/css/usercadastro.css'
-import { Link } from 'react-router-dom';
 import celular from '../../assets/img/Vectary texture (4).png'
 
 export const Usercadastro = () => {
@@ -19,12 +18,12 @@ export const Usercadastro = () => {
               <form className="caixa_text" action="/cadastro">
                 <input className="caixa" type="text" placeholder="Nome completo*" required />
                 <input className="caixa" type="text" placeholder="Cpf*" required/>
-                <input className="caixa" type="text" placeholder="Password*" required/>
-                <input className="caixa" type="text" placeholder="Rept Password*" required/>
-                <input className="caixa" type="text" placeholder="Email*" required/>
-                <input className="caixa" type="text" placeholder="Telefone*" required/>
-              </form>
-              <Link  to="/cadastro" className='cadastro-link' type='submit'> <button type='submit' className='continuar'>CONTINUAR</button></Link>
+                <input className="caixa" type="password" placeholder="Password*" required/>
+                <input className="caixa" type="password" placeholder="Rept Password*" required/>
+                <input className="caixa" type="email" placeholder="Email*" required/>
+                <input className="caixa" type="tel" placeholder="Telefone*" required/>
+                <button type='submit' className='continuar'>CONTINUAR</button>
+              </form> 
              <p className="text_tres">Ao continuar, você permite que o banco next entre em contato com você pelos canais informados.</p>
             </div>
           </div>
