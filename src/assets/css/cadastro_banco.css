@@ -42,12 +42,14 @@
 .Cadastro-div-form{
     position: absolute;
     z-index: 80;
-    width: 50%;
-    padding-top: 2%;
+    width: 898px;
+    border-radius: 25px;
+    margin-top: 134px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 
 
@@ -100,27 +102,30 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 10%;
         width: 100%;
         margin-top: 26%;
-        height: 1071px;
     }
     .Cadastro-div-form {
         position: absolute;
-        z-index: 80;
+        z-index: 91;
         width: 100%;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-around;
-        margin-top: -26%;
+        margin-top: -148px;
     }
     .curvas-cadastro{
-        margin-top: -25%;
-        z-index: 99;
+        margin-top: -21%;
+        z-index: 90;
     }
+}   .Cadastro-div{
+    height: 571px;
 }
 @media only screen and (max-width: 800px){
+    .form-cadastro{
+        padding: 22px;
+    }
     .Cadastro-div-form {
         position: absolute;
         z-index: 80;
@@ -141,7 +146,7 @@
         height: 1071px;
     }
     .curvas-cadastro{
-        margin-top: -25%;
+        display: none;
         z-index: 99;
     }
 }

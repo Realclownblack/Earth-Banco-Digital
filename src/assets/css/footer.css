@@ -144,6 +144,9 @@ hr {
 }
 
 @media only screen and (max-width: 900px) {
+    .Footer{
+        margin-top: -157%;
+    }
     .logo {
         width: 197px;
         /* height: 8%; */
@@ -185,7 +188,8 @@ hr {
     }
     .Text_Footer {
         font-family: 'Poppins', sans-serif;
-        font-size: 65%;
+        font-size: 58%;
+    width: 67%;
         opacity: .6!important;
         /* display: flex; */
         /* align-content: space-between; */

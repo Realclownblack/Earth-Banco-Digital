@@ -19,7 +19,7 @@ export const RoutesJS = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cadastro" element={<Cadastro/>} />
+        <Route exact path="/cadastro" element={<Cadastro />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/duvidas" element={<Duvidas/>} />
         <Route path="/about" element={<About/>} />

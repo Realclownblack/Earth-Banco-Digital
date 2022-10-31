@@ -15,13 +15,13 @@ export const Usercadastro = () => {
               <p className="text_pri">Quero Ser Earth</p>
               <p className='text_segun'>Preencha seus dados para começar o <br />
                processo de abertura de conta.</p>
-              <form className="caixa_text" action="/cadastro">
-                <input className="caixa" type="text" placeholder="Nome completo*" required />
-                <input className="caixa" type="text" placeholder="Cpf*" required/>
+              <form className="caixa_text" action={`/cadastro`}>
+                <input className="caixa" type="text" name="nome" placeholder="Nome completo*"  required />
+                <input className="caixa" type="text" name="cpf" placeholder="Cpf*"  required/>
                 <input className="caixa" type="password" placeholder="Password*" required/>
                 <input className="caixa" type="password" placeholder="Rept Password*" required/>
-                <input className="caixa" type="email" placeholder="Email*" required/>
-                <input className="caixa" type="tel" placeholder="Telefone*" required/>
+                <input className="caixa" type="email" name="email" placeholder="Email*" required/>
+                <input className="caixa" type="tel" name='celular' placeholder="Celular*" required/>
                 <button type='submit' className='continuar'>CONTINUAR</button>
               </form> 
              <p className="text_tres">Ao continuar, você permite que o banco next entre em contato com você pelos canais informados.</p>
