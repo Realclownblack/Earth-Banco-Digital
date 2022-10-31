@@ -119,9 +119,11 @@
         margin-top: -21%;
         z-index: 90;
     }
-}   .Cadastro-div{
-    height: 571px;
-}
+    .Cadastro-div{
+        height: 571px;
+    }
+}   
+
 @media only screen and (max-width: 800px){
     .form-cadastro{
         padding: 22px;
