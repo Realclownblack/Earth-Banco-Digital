@@ -1,0 +1,34 @@
+.Earthpoupa_info-div{
+    padding-top: 6%;
+    width: 100%;
+    height: 657px;
+    display: flex;
+}
+.Earthpoupa_info-text-poupa{
+    background-color: var(--CorVerde);
+    width: 551px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Earthpoupa_info-text-contratar{
+    background-color:  var(--CorBranca);
+    width: 100%;
+    height: 100%;
+}
+#Earthpoupa_info-titulo{
+    font-family: 'Poppins', sans-serif;
+    color: var(--CorPreto);
+    font-size: 30px;
+}
+#Earthpoupa_info-texto{
+    font-family: 'Poppins', sans-serif;
+    color: var(--CorBranca);
+    font-size: 25px;
+}
+#foto_earthpoupa{
+    width: 160px;
+}
