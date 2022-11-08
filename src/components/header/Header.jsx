@@ -77,7 +77,7 @@ export const Header = (props) => {
                         </span>
                     </div>
                     <a  className='a-menu' href="">
-                        <Link to={'/earthpoupa'} className='button_normal'><a className='button_normal' >Earth Poupa</a></Link>                                         
+                        <Link to={'/earthpoupa'} className='button_normal'><a  >Earth Poupa</a></Link>                                         
                     </a>
                     
                     <div className='menu-button-aparecer'
@@ -146,8 +146,12 @@ export const Header = (props) => {
                             </ul>
                         </span>
                     </div>
-                    <li id='4'>Open Finance</li>
-                    <li id='5'>Sobre Nós</li>
+                    <a  className='a-menu' href="">
+                        <Link to={'/openfinance'} className='button_normal'><a>Open Finance</a></Link>                                         
+                    </a>
+                    <a  className='a-menu' href="">
+                        <Link to={'/sobrenos'} className='button_normal'><a>Sobre Nós</a></Link>                                         
+                    </a>
                 </div>
             </div>
             <div className='menu'>
