@@ -1,0 +1,85 @@
+.Vantagens_openfinance-div{
+    width: 100%;
+    display: flex;
+    height: 615px;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--CorPreto);
+    justify-content: center;
+    padding-top: 23%;
+    margin-bottom: 18%;
+}
+.Vantagens_openfinance-div_2{
+    margin-top: 160px;
+    width: 100%;
+    height: 439px;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+}
+.Vantagens_openfinance_1{
+    width: 50%;
+    background-color: var(--corCinza);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Vantagens_openfinance_2{
+    width: 50%;
+    background-color: var(--CorVerde);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Vantagens_openfinance_3{
+    width: 50%;
+    background-color: var(--CorPreto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Vantagens_openfinance-div_titulo{
+    width: 100%;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -408px;
+    font-weight: bold;
+}
+.Vantagens_openfinance-text{
+    color: var(--CorPreto);
+    font-size: 18px;
+    width: 458px;
+    text-align: center;
+}
+.Vantagens_openfinance-text-2{
+    color: var(--CorBranca);
+    font-size: 18px;
+    width: 458px;
+    text-align: center;
+}
+.Vantagens_openfinance-titulo-2{
+    color: var(--CorBranca);
+    margin-top: 34px;
+    font-size: 18px;
+    font-size: 1rem;font-weight: bold;
+
+}
+.Vantagens_openfinance-titulo{
+    color: var(--CorPreto);
+    margin-top: 34px;
+    font-size: 18px;
+    font-size: 1rem;font-weight: bold;
+
+}
+.img-openfinace-vantagens{
+    width: 114px;
+}

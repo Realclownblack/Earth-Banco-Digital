@@ -1,0 +1,12 @@
+.Earthpoupa_info_ico-div{
+    padding-top: 11%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+#Earthpoupa_info_ico-div-img{
+    width: 461px;
+}

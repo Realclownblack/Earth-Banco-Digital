@@ -1,11 +1,12 @@
-.Earthpoupa_info-div{
+.Earthpoupa_info-div_1{
     padding-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
     height: 603px;
     display: flex;
+    margin-bottom: 13%;
 }
-.Earthpoupa_info-text-poupa{
+.Earthpoupa_info-text-poupa_2{
     background-color: var(--CorVerde);
     width: 551px;
     height: 100%;
@@ -15,35 +16,33 @@
     justify-content: center;
     text-align: center;
 }
-.Earthpoupa_info-text-contratar{
+.Earthpoupa_info-text-contratar_2{
     background-color:  var(--CorBranca);
     height: 100%;
 }
-#Earthpoupa_info-titulo{
+#Earthpoupa_info-titulo_2{
     font-family: 'Poppins', sans-serif;
     color: var(--CorPreto);
-    font-size: 40px;
-    font-style: oblique;
+    font-size: 30px;
 }
-#Earthpoupa_info-texto{
+#Earthpoupa_info-texto_2{
     font-family: 'Poppins', sans-serif;
     color: var(--CorBranca);
     font-size: 25px;
 }
-#foto_earthpoupa{
+#foto_earthpoupa_2{
     width: 160px;
 }
-#Earthpoupa_info-img{
+#Earthpoupa_info-img_2{
     width: 100%;
     height: 100%;
 }
-.Earthpoupa_info-div_2{
+
+.Earthpoupa_info-div_3{
     display: flex;
     width: 100%;
     flex-direction: row;
     margin-left: 5%;
     margin-right: 5%;
-}
-#earthpoupa-pergunta{
-    width: 398px;
+    justify-content: flex-end;
 }
