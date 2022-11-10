@@ -137,7 +137,7 @@ export const Header = (props) => {
                         <span className={isHovering_0 ? 'menu-button-ajuda' : 'menu_escondido'}>
                             <ul>
                                 <a  className='a-menu' href="">
-                                    <li className='button-conteudo-3'><p>Duvidas</p></li>                                    
+                                    <Link to={'/duvidas'} className='button_normal'><a className='button-conteudo-3'>Duvidas</a></Link>                                 
                                 </a>  
                                 <hr /> 
                                 <a  className='a-menu' href="">

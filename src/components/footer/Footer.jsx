@@ -73,13 +73,13 @@ export const Footer = () => {
                                    Rua Domingos Sérgio dos Anjos, 277 - Jardim Santo Elias, São Paulo - SP, 05136-170</p>
 
                                    <p className='text_nu2'>
-                                   O Next Tecnologia e Serviços Digitais, Brasil, <br />
+                                   O earth Tecnologia e Serviços Digitais, Brasil, <br />
                                    é uma plataforma digital que atua como correspondente no País de uma instituição financeira, <br />
                                    nos termos da Resolução CMN n° 3.954 de 24 de fevereiro de 2011.
                                    </p>
 
                                    <p className='text_nu3'>
-                                   O next não é uma instituição financeira, <br />
+                                   O earth não é uma instituição financeira, <br />
                                    de modo que quem realiza as operações de crédito, <br />
                                    manutenção de contas e demais atividades financeiras é o BANCO BRADESCO S.A., <br />
                                     banco múltiplo, inscrito no CNPJ sob nº 60.746.948.0001-12, <br />

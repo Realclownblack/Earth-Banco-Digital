@@ -1,5 +1,5 @@
 import '../../../assets/css/cssStatic/Openfinance_info.css'
-import mascote from '../../../assets/img/Vectary texture.png'
+import mascote from '../../../assets/img/earth bank preto.png'
 
 export const Openfinance_info = () =>{
     return(
