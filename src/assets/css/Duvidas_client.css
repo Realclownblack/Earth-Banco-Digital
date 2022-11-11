@@ -35,6 +35,9 @@
 
 .Duvidas_client-div-respostas{
     margin-left: 8%;
+    position: sticky;
+    top: 0;
+    padding-top: 73px;
 }
 .Duvidas_client-div-categorias{
     width: 466px;
