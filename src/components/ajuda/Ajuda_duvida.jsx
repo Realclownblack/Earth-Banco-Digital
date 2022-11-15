@@ -61,7 +61,6 @@ export const Ajuda_duvida = () => {
                             <p>O earth não possui agência própria, mas se precisar, pode ir em qualquer agência do Bradesco.</p>
                         </div>)}
                     </span> </button>
-
                 </div>
             </div>
             <div className='todas_duvidas'>

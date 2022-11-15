@@ -147,24 +147,6 @@ class CustomMenu extends Component {
                                     </span>
                                 </div>                        
                             </li>
-                            <li>
-                                <div className='caixa_menu'>
-                                    <span className='span-text'>
-                                        <p className='span-menu-titulo'>What's earth</p>
-                                        <p>Aqui você fica por dentro de tudo o que acontece no next e encontra dicas para fazer acontecer!</p>
-                                        <a className="menu-item" href="/">Conhecer</a>                                       
-                                    </span>
-                                </div>
-                            </li>
-                            <li>
-                                <div className='caixa_menu'>
-                                    <span className='span-text'>
-                                        <p className='span-menu-titulo'>earthShop</p>
-                                        <p>Ofertas Incríveis de grandes lojas com cashback em até 7 dias.</p>
-                                        <a className="menu-item" href="/">Conhecer</a>                                       
-                                    </span>
-                                </div>
-                            </li>  
                         </ul>
 
                     </div>                    
