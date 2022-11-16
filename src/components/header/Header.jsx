@@ -76,10 +76,6 @@ export const Header = (props) => {
                             </ul>
                         </span>
                     </div>
-                    <a  className='a-menu' href="">
-                        <Link to={'/earthpoupa'} className='button_normal'><a  >Earth Poupa</a></Link>                                         
-                    </a>
-                    
                     <div className='menu-button-aparecer'
                                 onMouseOver={() =>handleMouseOver(2)}
                                 onMouseOut={() => handleMouseOut(2)}>

@@ -71,8 +71,9 @@
     padding-right: 0;
     font-family: "Arial", Times, serif;
   }
-  .form-contact-textarea:focus, input:focus, select:focus{
-    border-color: var(--CorRosa);
+  .form-contact-textarea:focus{
+
+    outline-color: var(--CorVerde);
   }
 
   .form-contact-button {
