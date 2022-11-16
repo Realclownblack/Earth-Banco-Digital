@@ -44,12 +44,32 @@
 .Duvidas_client-div-categorias{
     position: sticky;
     top: 0;
-    width: 377px;
-    height: 530px;
+    width: 382px;
+    height: 384px;
     background-color: var(--corCinza);
     padding: 1.75rem 2.5rem;
+    border-radius: 187px;
+    display: flex;
+    flex-direction: column;
 }
 .Duvidas_client-div-respostas-duvidas{
     width: 911px;
     padding: 1.75rem 2.5rem;
+}
+#duvidas-earth-divulga{
+    z-index: 89;
+}
+.Duvidas_client-div-img-circulo{
+    border-radius: 187px;
+    width: 382px;
+    height: 384px;
+    background-color: var(--CorVerde);
+}
+.Duvidas_client-div-img-circulo-2{
+    border-radius: 187px;
+    width: 272px;
+    height: 261px;
+    background-color: var(--CorVerde);
+    position: absolute;
+    margin-top: 150px;
 }

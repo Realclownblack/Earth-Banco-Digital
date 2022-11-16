@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../../assets/css/Duvidas_client.css'
 import '../../assets/css/Ajuda_duvida_client.css'
 import duvidas_img from '../../assets/img/cover-duvidas.png'
+import earth_divulga from '../../assets/img/CartaoCelular.png'
 
 export const Duvidas_client = () => {
     const [toggle, setToggle] = useState(false)
@@ -45,6 +46,9 @@ export const Duvidas_client = () => {
             </div>
             <div className='Duvidas_client-div-respostas'>
                 <div  className='Duvidas_client-div-categorias'>
+                    <div className='Duvidas_client-div-img-circulo'></div>
+                    <img id='duvidas-earth-divulga' src={earth_divulga} alt="" />
+                    <div className='Duvidas_client-div-img-circulo-2'></div>
                 </div>
 
                 <div  className='Duvidas_client-div-respostas-duvidas'>
