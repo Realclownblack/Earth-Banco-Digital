@@ -1,6 +1,88 @@
 .Sobre-div{
+    font-family: 'Poppins', sans-serif;
     padding-top: 97px;
     width: 100%;
-    height: 1000px;
-    background-color: aqua;
+    height: 1426px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+#Sobre-img{
+    width: 500px;
+    margin-top: 66px;
+}
+.Sobre-div-banco{
+    color: var(--CorVerde);
+    font-weight: bold;
+}
+.Sobre-div-text{
+    margin-top: 79px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+}
+.Sobre-div-1{
+    width: 265px;
+}
+.Sobre-div-2{
+    width: 460px;
+    font-size: 22px;
+}
+.Sobre-div-misao{
+    color: var(--CorBranca);
+    position: absolute;
+    width: 1792px;
+    height: 494px;
+    background-color: black;
+    margin-top: 822px;
+    display: flex;
+    flex-direction: row;
+    padding: 46px;
+    align-content: center;
+}
+#Sobre-text-1{
+    font-size: 66px;
+    font-weight: bold;
+}
+#sobre-celular{
+    width: 479px;
+}
+#Sobre-misao-text-1{
+    font-size: 37px;
+    width: 50%;
+}
+
+.sobre-misao-text2{
+    width: 250px;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sobre-misao-text1{
+    width: 250px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sobre-misao-text2-p{
+    color: var(--CorVerde);
+    font-size: 25px;
+    font-weight: bold;
+}
+.Sobre-div-misao-text2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#sobre-img-curva{
+    position: absolute;
+    margin-left: -412px;
+    margin-top: -27px;
+    z-index: 50;
 }

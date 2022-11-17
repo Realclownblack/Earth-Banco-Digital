@@ -4,12 +4,19 @@ import '../../assets/css/cadastro_banco.css'
 import curva from '../../assets/img/curva-1.svg'
 import curva_2 from '../../assets/img/curva-2.svg'
 import logo_earth from '../../assets/img/earth bank.png'
-
+import axios from 'axios'
 
 export const Cadastro_banco = (props) => {
     
     const [_params, _] = useSearchParams();
     let params = {};
+
+    const API_URL_REGIS_USER = "http://localhost:3000/back_end/registerusuario" ;  
+
+    const UserRegister = async () => {
+        const { data } = await axios.post(API_URL_REGIS_USER)
+        console.log(data)
+    }
     
     for (const [key, value] of _params) {
         params[key] = value;

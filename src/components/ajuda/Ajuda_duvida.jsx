@@ -66,7 +66,7 @@ export const Ajuda_duvida = () => {
             <div className='todas_duvidas'>
                 <Link to={'/duvidas'} > <button className='abrir_duvidas'>TODAS AS DUVIDAS</button></Link>
                 <p id='ou'>ou</p>
-                <a className='entre-contato' href="">ENTRE EM CONTATO</a>
+                <Link to={'/duvidas'} className='entre-contato'> <button  className='entre-contato'>ENTRE EM CONTATO</button></Link>
             </div>
         </div>
     )

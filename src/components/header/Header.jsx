@@ -154,7 +154,7 @@ export const Header = (props) => {
                 <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
                     <CustomMenu />
                 </div>
-                <Link to='/cadastro' className='button_home'><a className='button_home' >Quero Ser Earth</a></Link>  
+                <a href="#cadastro" className='button_home'>Quero Ser Earth</a>  
             </div>
             
         </div>
