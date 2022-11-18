@@ -17,8 +17,8 @@ export const UserLogin = () =>{
                         <input className="UserLogin-caixa" type="text" placeholder="Cpf*" />
                         <input className="UserLogin-caixa" type="text" placeholder="Senha*"/>
                     </form>
-                    <button className='UserLogin-logar'>Logar</button>
-                     <Link to={'/cadastro'} className='link-user'>Não tem conta?,  faça seu cadastro</Link>
+                    <Link to={'/logado'} className='UserLogin-logar'>Logar</Link>
+                    <Link to={'/cadastro'} className='link-user'>Não tem conta?,  faça seu cadastro</Link>
                 </div>             
             </div>
             <div className='img-userlogin-baixo'>

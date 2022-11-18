@@ -9,7 +9,7 @@ import EarthJoy from "./pages/EarthJoy"
 import TemEarth from "./pages/TemEarth"
 import SobreNos from "./pages/SobreNos"
 import OpenFinance from "./pages/OpenFinance"
-import EarthShop from "./pages/EarthShop"
+import Logado from "./pages/Afther_user";
 import Contato from "./pages/Contato"
 
 export const RoutesJS = () => {
@@ -25,7 +25,7 @@ export const RoutesJS = () => {
         <Route path="/temaearth" element={<TemEarth/>} />
         <Route path="/sobrenos" element={<SobreNos/>} />
         <Route path="/openfinance" element={<OpenFinance/>} />
-        <Route path="/earthshop" element={<EarthShop/>} />
+        <Route path="/logado" element={<Logado/>} />
         <Route path="/contato" element={<Contato/>} />
       </Routes>
     </BrowserRouter>

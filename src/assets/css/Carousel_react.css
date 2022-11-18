@@ -1,0 +1,47 @@
+.Carousel_react-div{
+    width: 574px !important;
+    display: flex;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 150px !important;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition-property: transform;
+    background-color: var(--CorVerde);
+    border-radius: 25px;
+}
+.Carousel_react-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.swiper-pointer-events {
+    touch-action: pan-y;
+    margin-top: 76px;
+}
+.Carousel_react-button{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--CorPreto);
+}
