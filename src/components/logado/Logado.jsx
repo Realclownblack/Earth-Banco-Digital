@@ -9,9 +9,6 @@ import on_saldo from '../../assets/img/olho-aberto.png'
 import sair from '../../assets/img/sair (1).png'
 
 export const Logado = () =>{
-    const [toggle, setToggle] = useState(false)
-
-    
 
     return(
         <div className='Logado-div'>

@@ -154,13 +154,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .button-conteudo-2 {
-    display: flex;
+    text-decoration: none;
+    list-style: none;
+    /* display: flex;
     flex-direction: column;
     padding: 0%;
     width: 100%;
     height: 14%;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 
 .button-conteudo-3 {

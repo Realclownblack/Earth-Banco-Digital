@@ -48,7 +48,7 @@ export const Header = (props) => {
         <div className={scroll ? "header_home menu_compacto" : "header_home"}>
             <div className='container-left'>
                 <div className={scroll ? "logo_aparecer" : "Logo"}>
-                    <Link to="/"><img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img></Link>
+                    <Link to="/home"><img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img></Link>
                    
                 </div>
                 <p className={scroll ? "Text Text_aparecer" : "Text"}>
@@ -82,46 +82,32 @@ export const Header = (props) => {
                         <a className='button_normal' >Tem No Earth</a>
                         <span className={isHovering_2 ? 'menu-button-earth' : 'menu_escondido'}>
                             <ul>
-                                <a  className='a-menu' href="https://www.coca-cola.com.br/">
-                                    <li className='button-conteudo-2' ><p>Cartões earth</p>
-                                        {/* <span className='menu-text-dentro'>Cartões sem anuidade, pagamentos digitais e mimos exclusivos.</span> */}
-                                    </li>
+                                <a  className='a-menu' href="">
+                                    <Link to={'/temearth'} className='button_normal'><a className='button-conteudo-2'>Cartões earth</a></Link>
                                 </a>
                                 <hr />
                                 <a  className='a-menu' href="">
-                                    <li className='button-conteudo-2'><p>Investimentos</p> 
-                                        {/* <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span> */}
-                                    </li>                                    
+                                    <Link to={'/temearth'} className='button_normal'><a className='button-conteudo-2'>Investimentos</a></Link>                                  
                                 </a>
                                 <hr />
                                 <a  className='a-menu' href="">
-                                    <li className='button-conteudo-2'><p>Empréstimos</p> 
-                                        {/* <span className='menu-text-dentro'>Investimentos que combinam com todos os tipos de perfil.</span> */}
-                                    </li>                                    
+                                    <Link to={'/temearth'} className='button_normal'><a className='button-conteudo-2'>Empréstimos</a></Link>                                   
                                 </a> 
                                 <hr />  
                                 <a  className='a-menu' href="">
-                                    <li className='button-conteudo-2'><p>Seguros</p> 
-                                        {/* <span className='menu-text-dentro'>Seguros para proteger o que conquistou e cuidar do seu bem-estar.</span> */}
-                                    </li>                                    
+                                    <Link to={'/temearth'} className='button_normal'><a className='button-conteudo-2'>Seguros</a></Link>                                   
+                                </a> 
+                                <hr />  
+                                <a  className='a-menu'  href="">
+                                    <Link to={'/temearth'} className='button_normal'><a className='button-conteudo-2'>Pix</a></Link>                                  
                                 </a> 
                                 <hr />  
                                 <a  className='a-menu' href="">
-                                    <li className='button-conteudo-2'><p>Pix</p> 
-                                        {/* <span className='menu-text-dentro'>Um novo jeito de fazer pagamentos e transferências.</span> */}
-                                    </li>                                    
-                                </a> 
-                                <hr />  
-                                <a  className='a-menu' href="">
-                                    <li className='button-conteudo-2'><p>Whatsapp</p> 
-                                        {/* <span className='menu-text-dentro'>Mais um jeito rápido, seguro e prático de pagar com o earth.</span> */}
-                                    </li>                                    
+                                    <Link to={'/temearth'} className='button_normal'><a className='button-conteudo-2'>Whatsapp</a></Link>                                 
                                 </a>  
                                 <hr /> 
                                 <a  className='a-menu' href="">
-                                    <li className='button-conteudo-2'><p>Indique amigos</p> 
-                                        {/* <span className='menu-text-dentro'>Chame seus amigos para abrir conta no earth.</span> */}
-                                    </li>                                    
+                                    <Link to={'/temearth'} className='button_normal'><a className='button-conteudo-2'>Indique amigos</a></Link>                                 
                                 </a>                       
                             </ul>
                         </span>
@@ -154,7 +140,7 @@ export const Header = (props) => {
                 <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
                     <CustomMenu />
                 </div>
-                <a href="#cadastro" className='button_home'>Quero Ser Earth</a>  
+                <Link to={'/home'} href='#cadastro' className='button_home'><a  className='button_home'>Quero Ser Earth</a></Link>
             </div>
             
         </div>
