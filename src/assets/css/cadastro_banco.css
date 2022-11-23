@@ -103,6 +103,7 @@
         flex-direction: column-reverse;
         align-items: center;
         width: 100%;
+        height: 678px;
     }
     .Cadastro-div-form {
         position: absolute;
@@ -112,18 +113,26 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-around;
-        margin-top: -148px;
     }
     .curvas-cadastro{
         margin-top: -21%;
         z-index: 90;
     }
-    .Cadastro-div{
-        height: 571px;
+    .Cadastro-div {
+        background-color: var(--CorBranca);
+        position: absolute;
+        z-index: 80;
+        width: 100%;
+        height: 721px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 }   
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1090px){
+
     .form-cadastro{
         padding: 22px;
     }
@@ -135,7 +144,6 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-around;
-        margin-top: -26%;
     }
     .Cadastro-banco {
         display: flex;
