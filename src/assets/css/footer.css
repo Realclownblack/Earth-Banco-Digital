@@ -144,9 +144,9 @@ hr {
 }
 
 @media only screen and (max-width: 900px) {
-    .Footer{
+    /* .Footer{
         margin-top: -157%;
-    }
+    } */
     .logo {
         width: 197px;
         /* height: 8%; */

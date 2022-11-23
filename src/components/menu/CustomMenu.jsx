@@ -48,7 +48,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Cartões earth</p>
                                         <p>Cartões sem anuidade, pagamentos digitais e mimos exclusivos.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>
                                     </span>
                                 </div>
                             </li>
@@ -57,7 +57,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Mimos</p>
                                         <p>Quem é earth tem descontos exclusivos para aproveitar.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                       
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                       
                                     </span>
                                 </div>
                             </li>
@@ -66,7 +66,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Investimentos</p>
                                         <p>Investimentos que combinam com todos os tipos de perfil.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                      
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                      
                                     </span>
                                 </div>
                             </li>
@@ -75,7 +75,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Empréstimos</p>
                                         <p>Crédito com a opção de contratar direto pelo app.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                      
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                      
                                     </span>
                                 </div>
                             </li>
@@ -84,7 +84,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Seguros</p>
                                         <p>Seguros para proteger o que conquistou e cuidar do seu bem-estar.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                       
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                       
                                     </span>
                                 </div>
                             </li>
@@ -93,7 +93,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Pix</p>
                                         <p>Um novo jeito de fazer pagamentos e transferências.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                     
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                     
                                     </span>
                                 </div>
                             </li>
@@ -102,7 +102,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Whatsapp</p>
                                         <p>Mais um jeito rápido, seguro e prático de pagar com o earth.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                        
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                        
                                     </span>
                                 </div>
                             </li>
@@ -111,7 +111,7 @@ class CustomMenu extends Component {
                                     <span className='span-text'>
                                         <p className='span-menu-titulo'>Indique amigos</p>
                                         <p>Chame seus amigos para abrir conta no earth.</p>
-                                        <Link to={'/temaearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                        
+                                        <Link to={'/temearth'} className="menu-item"><a className="menu-item">Conhecer</a></Link>                                        
                                     </span>
                                 </div>
                             </li>

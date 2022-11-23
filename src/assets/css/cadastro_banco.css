@@ -103,7 +103,6 @@
         flex-direction: column-reverse;
         align-items: center;
         width: 100%;
-        margin-top: 26%;
     }
     .Cadastro-div-form {
         position: absolute;
@@ -144,7 +143,6 @@
         align-items: center;
         /* padding-top: 10%; */
         width: 100%;
-        margin-top: 26%;
         height: 1071px;
     }
     .curvas-cadastro{

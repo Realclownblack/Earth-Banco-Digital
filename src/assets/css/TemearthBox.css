@@ -47,3 +47,50 @@
 #Temearth-curva{
     width: 1090px;
 }
+@media only screen and (max-width: 1500px) {
+    .TemearthBox-div {
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    #Temearth-curva {
+        width: 1090px;
+        display: none;
+    }
+    .TemearthBox-box {
+        width: 100%;
+        height: 100%;
+        background-color: var(--corCinza);
+        margin-bottom: 49px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        z-index: 8;
+        border-radius: 0px;
+        margin-top: 140px;
+        margin-bottom: 344px;
+    }
+    .TemearthBox-componet-1 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 37px;
+        align-items: center;
+    }
+    #Temearth-img {
+        width: 110px;
+    }
+    #Temearth-contex {
+        font-size: 23px;
+        z-index: 8;
+        text-align: center;
+    }
+
+}
