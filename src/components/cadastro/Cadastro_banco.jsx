@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import '../../assets/css/cadastro_banco.css'
 import curva from '../../assets/img/curva-1.svg'
@@ -8,20 +8,42 @@ import axios from 'axios'
 
 export const Cadastro_banco = (props) => {
     
+    const [tokenAcess,setTokenAcess] = useState();
+    const [tokenRefresh,setTokenRefresh] = useState();
+    const API_PRIMEIRO_ACESSO = "http://127.0.0.1:8000/auth/users/";
+    const API_CRIAR_TOKEN = "http://127.0.0.1:8000/auth/jwt/create";
+    const API_URL_REGIS_USER = "http://127.0.0.1:8000/back_end/registerusuario/" ;  
+    // onChange={(e) => setTokenAcess(e.target.value)}
+
     const [_params, _] = useSearchParams();
     let params = {};
 
-    const API_URL_REGIS_USER = "http://localhost:3000/back_end/registerusuario" ;  
+    for (const [key, value] of _params) {
+        params[key] = value;
+    }
+    
+    async function CriarAuth()  {
+        console.log("passei")
+        const res = await axios.post(API_PRIMEIRO_ACESSO, {'email': params.email, 'username' : params.cpf, 'password' : params.password1})
+        console.log(res)
 
+        // if ("id" in data_1[0]){
+        //     const {dadosToken} = await axios.post(API_CRIAR_TOKEN, data = {'username': params.cpf, 'password': params.password})
+            
+        //     setTokenRefresh(dadosToken[0]);
+        //     setTokenAcess(dadosToken[1]);
+        //     console.log(tokenAcess,tokenRefresh)
+            
+        // };
+        
+        //depois disso fazer a requisição passando o token via header para criar o usuário e demais funções do backend
+
+    }
     const UserRegister = async () => {
         const { data } = await axios.post(API_URL_REGIS_USER)
         console.log(data)
     }
     
-    for (const [key, value] of _params) {
-        params[key] = value;
-    }
-
     return (
         <div className='Cadastro-banco'>
             <div className='Cadastro-div'>
@@ -40,7 +62,8 @@ export const Cadastro_banco = (props) => {
                                 <option >Feminino</option>
                                 <option >Masculino</option>
                             </select>
-                        </div>                       
+                        </div>
+                        <button type="button" onClick={CriarAuth}>enviar</button>                       
                     </form>
                 </div>
                 <img src={curva_2} alt="" className='curvas-cadastro' />

@@ -4,9 +4,6 @@ import celular from '../../assets/img/Vectary texture (4).png'
 
 export const Usercadastro = () => {
 
-  function Verificar (){
-
-  }
 
   return (
       <nav className='cadastro'>
