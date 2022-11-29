@@ -11,6 +11,7 @@ import {Ajuda_duvida} from '../components/ajuda/Ajuda_duvida'
 import { ContasCadastradas } from '../components/contasCadastradas/ContasCadastradas'
 
 // PAgina de relatos
+// agora sim
 class Home extends Component {
     state = {  } 
     render() { 
