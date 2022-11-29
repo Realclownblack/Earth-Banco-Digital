@@ -10,6 +10,7 @@ import { Contaearth } from '../components/contaearth/Contaearth'
 import {Ajuda_duvida} from '../components/ajuda/Ajuda_duvida'
 import { ContasCadastradas } from '../components/contasCadastradas/ContasCadastradas'
 
+// PAgina de relatos
 class Home extends Component {
     state = {  } 
     render() { 
