@@ -133,7 +133,11 @@
 .UserCadastro-voltar{
     margin-right: 49px;
 }
-
+@media only screen and (max-width: 1400px) {
+    .UserCadastro-voltar{
+        display:none;
+    }
+}
 @media only screen and (max-width: 1100px) {
     .img-celular{
      display:none;
