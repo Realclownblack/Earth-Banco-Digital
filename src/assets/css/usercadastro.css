@@ -158,5 +158,8 @@
         width: 100%;
         background-color: var(--CorBranca);
         display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }
