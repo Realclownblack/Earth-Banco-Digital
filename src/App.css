@@ -5,3 +5,7 @@
     --CorBranca: #ffffff;
     --CorPreto: #000;
 }
+
+html{
+    scroll-behavior: smooth;
+}

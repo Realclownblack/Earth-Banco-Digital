@@ -3,6 +3,8 @@ import '../../assets/css/header.css'
 import logo from '../../assets/img/earth bank.png'
 import CustomMenu from '../menu/CustomMenu';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 
 export const Header = (props) => {
     const [scroll, setScroll] = useState(false);
@@ -11,6 +13,10 @@ export const Header = (props) => {
             setScroll(window.scrollY > 150);
         });
         }, []);
+
+    const goTop = () =>{
+        window.scrollTo(0, 0)
+    }
 
     const[isHovering_0, setIsHoverring_0] = useState(false);
     const[isHovering_1, setIsHoverring_1] = useState(false);
@@ -48,7 +54,7 @@ export const Header = (props) => {
         <div className={scroll ? "header_home menu_compacto" : "header_home"}>
             <div className='container-left'>
                 <div className={scroll ? "logo_aparecer" : "Logo"}>
-                    <Link to="/home"><img className='Logo' src={logo} alt="Connect-Banco-Digital logo"></img></Link>
+                    <a onClick={goTop}><img className='Logo' src={logo} alt="Connect-Banco-Digital logo" id='navbarearth' ></img></a>
                    
                 </div>
                 <p className={scroll ? "Text Text_aparecer" : "Text"}>
@@ -140,7 +146,7 @@ export const Header = (props) => {
                 <div className={scroll ? "Menu_react Menu_aparecer" : "Menu_react"}>
                     <CustomMenu />
                 </div>
-                <Link to={'/home'} href='#cadastro' className='button_home'><a  className='button_home'>Quero Ser Earth</a></Link>
+                <HashLink smooth to={'/home#cadastro'} className='button_home'><a  className='button_home'>Quero Ser Earth</a></HashLink>
             </div>
             
         </div>

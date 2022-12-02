@@ -191,7 +191,14 @@
     width: 100%;
     height: 89%;
 }
-
+.colun0{
+    color: var(--CorVerde);
+}
+.menu-item{
+    text-decoration: none;
+    color: var(--CorVerde);
+}
+    
 .text_titulo_menu {
     font-family: 'Poppins', sans-serif;
     font-size: 19px;

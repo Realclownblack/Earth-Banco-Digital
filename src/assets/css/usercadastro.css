@@ -37,8 +37,8 @@
     height: 100%;
     z-index: 70;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
 }
 .img-logo-preto{
@@ -129,6 +129,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.UserCadastro-voltar{
+    margin-right: 49px;
 }
 
 @media only screen and (max-width: 1100px) {
