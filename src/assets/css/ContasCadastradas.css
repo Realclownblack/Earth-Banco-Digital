@@ -40,11 +40,10 @@
     align-items: center;
 }
 #ContasCadastradas-img{
-    width: 640px;
+    width: 478px;
     position: absolute;
-    margin-left: -40%;
     animation: float 5s linear infinite;
-    margin-top: -50px;
+    left: 0px;
 }
 @keyframes float{
     0%, 100%{
