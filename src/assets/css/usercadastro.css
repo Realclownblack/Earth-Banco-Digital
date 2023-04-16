@@ -13,11 +13,10 @@
     margin-bottom: -7px;
 }
 .img-celular-2{
-    margin-left: -382px;
     z-index: 71;
-    margin-top: -160px;
     width: 848px;
     position: absolute;
+    left: 0;
 }
 .quadrado1 {
     width: 100%;
